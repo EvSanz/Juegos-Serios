@@ -1,0 +1,789 @@
+/target:library
+/out:Temp/Assembly-CSharp-Editor.dll
+/nowarn:0169
+/nowarn:0649
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/Assembly-CSharp.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/xasu.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll
+/reference:Library/ScriptAssemblies/UniRx.dll
+/reference:Library/ScriptAssemblies/xasu-plugins.dll
+/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+/reference:Library/ScriptAssemblies/NativeShare.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll
+/reference:Library/ScriptAssemblies/simva-unity-plugin.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/xasu-editor.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Path.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Editor.dll
+/reference:Library/ScriptAssemblies/PsdPlugin.dll
+/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Mathematics.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll
+/reference:Library/ScriptAssemblies/NativeShare.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll
+/reference:Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll
+/reference:Library/ScriptAssemblies/simva-unity-plugin-editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/Unity.2D.Common.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll
+/reference:Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:Assets/uAdventure/Editor/Plugins/Microsoft.Msagl.dll
+/reference:Assets/uAdventure/Editor/Plugins/MoreLinq.dll
+/reference:Assets/uAdventure/Plugins/LibTess.dll
+/reference:Assets/uAdventure/Plugins/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll
+/reference:Assets/uAdventureAnalytics/Plugins/xasu/Editor/Plugins/Microsoft.Deployment.WindowsInstaller.dll
+/reference:Assets/uAdventureAnalytics/Plugins/xasu/Editor/Plugins/WixSharp.dll
+/reference:Assets/uAdventureAnalytics/Plugins/xasu/Editor/Plugins/WixSharp.Msi.dll
+/reference:Assets/uAdventureAnalytics/Plugins/xasu/Runtime/Plugins/Polly.dll
+/reference:Assets/uAdventureAnalytics/Plugins/xasu/Runtime/Plugins/xAPIClient.dll
+/reference:Assets/uAdventureAnalytics/Plugins/xasu/Runtime/Plugins/xAPIModel.dll
+/reference:Assets/uAdventureGeo/Plugins/Triangulation.dll
+/reference:Assets/uAdventureQR/Plugins/zxing.unity.dll
+/reference:Assets/uAdventureSimva/Plugins/simva-unity-plugin/Runtime/Plugins/UnityFx.Async-net35.dll
+/reference:D:/Unity/Juegos-Serios/FightCancel/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/log4netPlastic.dll
+/reference:D:/Unity/Juegos-Serios/FightCancel/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll
+/reference:D:/Unity/Juegos-Serios/FightCancel/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll
+/reference:D:/Unity/Juegos-Serios/FightCancel/Library/PackageCache/com.unity.collab-proxy@1.14.18/Lib/Editor/PlasticSCM/unityplastic.dll
+/reference:D:/Unity/Juegos-Serios/FightCancel/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll"
+/define:UNITY_2019_4_40
+/define:UNITY_2019_4
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_4_6
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+Assets\uAdventure\Editor\AbstractEditorComponent.cs
+Assets\uAdventure\Editor\AbstractEditorComponentWithPreview.cs
+Assets\uAdventure\Editor\ActionsList.cs
+Assets\uAdventure\Editor\AnimationField.cs
+Assets\uAdventure\Editor\Assets\CursorPostProcessor.cs
+Assets\uAdventure\Editor\Assets\EditorPostProcessor.cs
+Assets\uAdventure\Editor\Assets\ReadWritePostProcessor.cs
+Assets\uAdventure\Editor\Assets\SpritePostProcessor.cs
+Assets\uAdventure\Editor\Assets\VideoPostProcessor.cs
+Assets\uAdventure\Editor\BuildingUtil\FileId.cs
+Assets\uAdventure\Editor\ButtonList.cs
+Assets\uAdventure\Editor\ColumnList.cs
+Assets\uAdventure\Editor\ComponentBasedEditor.cs
+Assets\uAdventure\Editor\ComponentBasedEditorWindow.cs
+Assets\uAdventure\Editor\ConversationEditor\ConversationEditorWindow.cs
+Assets\uAdventure\Editor\ConversationEditor\NodeEditors\ConversationNodeEditor.cs
+Assets\uAdventure\Editor\ConversationEditor\NodeEditors\ConversationNodeEditorFactory.cs
+Assets\uAdventure\Editor\ConversationEditor\NodeEditors\NodeEditors\DialogNodeEditor.cs
+Assets\uAdventure\Editor\ConversationEditor\NodeEditors\NodeEditors\OptionNodeEditor.cs
+Assets\uAdventure\Editor\ConversationEditor\Utils\NodePositioner.cs
+Assets\uAdventure\Editor\DataControlList.cs
+Assets\uAdventure\Editor\DeletePlayerPrefs.cs
+Assets\uAdventure\Editor\DescriptionsEditor.cs
+Assets\uAdventure\Editor\Dialogs\BaseAreaEditablePopup.cs
+Assets\uAdventure\Editor\Dialogs\BaseChooseObjectPopup.cs
+Assets\uAdventure\Editor\Dialogs\BaseCreatorPopup.cs
+Assets\uAdventure\Editor\Dialogs\BaseInputPopup.cs
+Assets\uAdventure\Editor\Dialogs\Books\BooksAppearanceEditor.cs
+Assets\uAdventure\Editor\Dialogs\Chapter\ChapterVarAndFlagsEditor.cs
+Assets\uAdventure\Editor\Dialogs\ConfirmationDialog.cs
+Assets\uAdventure\Editor\Dialogs\Cutscenes\CutsceneNameInputPopup.cs
+Assets\uAdventure\Editor\Dialogs\Cutscenes\CutsceneSlidesEditor.cs
+Assets\uAdventure\Editor\Dialogs\DialogReceiverInterface.cs
+Assets\uAdventure\Editor\Dialogs\FileChooser\AnimationCharacterFileOpenDialog.cs
+Assets\uAdventure\Editor\Dialogs\FileChooser\AnimationFileOpenDialog.cs
+Assets\uAdventure\Editor\Dialogs\FileChooser\BaseFileOpenDialog.cs
+Assets\uAdventure\Editor\Dialogs\FileChooser\ImageFileOpenDialog.cs
+Assets\uAdventure\Editor\Dialogs\FileChooser\MusicFileOpenDialog.cs
+Assets\uAdventure\Editor\Dialogs\FileChooser\PathFileOpenDialog.cs
+Assets\uAdventure\Editor\Dialogs\FileChooser\VideoFileOpenDialog.cs
+Assets\uAdventure\Editor\EditorComponent.cs
+Assets\uAdventure\Editor\EditorComponentAttribute.cs
+Assets\uAdventure\Editor\EffectEditor\ConditionEditor\ConditionEditor.cs
+Assets\uAdventure\Editor\EffectEditor\ConditionEditor\ConditionEditorFactory.cs
+Assets\uAdventure\Editor\EffectEditor\ConditionEditor\ConditionEditors\FlagConditionEditor.cs
+Assets\uAdventure\Editor\EffectEditor\ConditionEditor\ConditionEditors\GlobalStatesRefEditor.cs
+Assets\uAdventure\Editor\EffectEditor\ConditionEditor\ConditionEditors\VarConditionEditor.cs
+Assets\uAdventure\Editor\EffectEditor\ConditionEditorWindow.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\EffectEditorFactory.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\IEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\AbstractItemEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\ActivateEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\CancelActionEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\ConsumeObjectEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\DeactivateEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\DecrementVarEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\GenerateObjectEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\HighlightItemEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\IncrementVarEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\Inventory\AddObjectToInventoryEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\Inventory\RemoveObjectFromInventoryEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\MacroReferenceEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\MoveNPCEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\MoveObjectEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\MovePlayerEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\MovementControl\ChangeOrientationEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\PlayAnimationEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\PlaySoundEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\RandomEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\SceneElements\RemoveElementEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\SetValueEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\ShowTextEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\SpeakCharEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\SpeakPlayerEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\TriggerBookEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\TriggerConversationEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\TriggerCutsceneEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\TriggerLastSceneEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\TriggerSceneEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditor\NodeEditors\WaitTimeEffectEditor.cs
+Assets\uAdventure\Editor\EffectEditor\EffectEditorWindow.cs
+"Assets\uAdventure\Editor\Engine logic\Controllers\AdventureDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\AssetsController.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Build\AndroidBuilder.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Build\IOSBuilder.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Build\ISimplifiedBuilder.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Build\StandaloneBuilder.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Build\WebGLBuilder.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\ChapterToolManager.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\ConditionsController.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Config\ConfigData.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Config\ProjectConfigData.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Config\ProjectConfigDataConsumer.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Config\RecentFile.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Controller.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Adaptation\AdaptationProfileDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Adaptation\AdaptationProfilesDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Adaptation\AdaptationRuleDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Atrezzo\AtrezzoDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Atrezzo\AtrezzoListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Book\BookDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Book\BookPagesListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Book\BookParagraphDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Book\BookParagraphsListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Book\BooksListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Character\NPCDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Character\NPCsListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Character\PlayerDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Conversation\ConversationDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Conversation\ConversationLineDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Conversation\ConversationNodeDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Conversation\ConversationsListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Conversation\DialogNodeDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Conversation\GraphConversationDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Conversation\OptionNodeDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Cutscene\CutsceneDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Cutscene\CutscenesListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Cutscene\EndSceneDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\General\ActionDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\General\ActionsListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\General\AdvancedFeaturesDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\General\ChapterDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\General\ChapterListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\General\CustomActionDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\General\DataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\General\DataControlWithResources.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\General\ListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\General\ResourcesDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Global state\GlobalStateDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Global state\GlobalStateListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\IElementReference.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Item\ItemDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Item\ItemsListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\IxAPIConfigurable.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Macro\MacroDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Macro\MacroListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\ActiveAreaDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\ActiveAreasListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\BarrierDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\BarriersListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\ElementContainer.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\ElementReferenceDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\ExitDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\ExitsListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\InfluenceAreaDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\NodeDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\PointDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\RectangleArea.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\ReferencesListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\SceneDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\ScenesListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\SideDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Scene\TrajectoryDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Timer\TimerDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Data controllers\Timer\TimersListDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\DescriptionController.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\DescriptionsController.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\EffectsController.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\ExitLookDataControl.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Searchable.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\SingleEffectController.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\ToolManager.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Book\AddBookPageTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Book\ChangeBookPageMarginsTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Book\ChangeBookPageScrollableTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Book\ChangeBookPageTypeTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Book\ChangeBookPageUriTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Book\ChangeParagraphContentTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Book\DeleteBookPageTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Book\MoveBookPageDownTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Book\MoveBookPageUpTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Conversation\OptionsPositionTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Area editon\AddNewPointTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Area editon\ChangePointValueTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Area editon\ChangeRectangularValueTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Area editon\DeletePointTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\AddResourcesBlockTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\DeleteArrowTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\DeleteAssetReferencesInResources.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\DeleteButtonTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\DeleteCursorTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\DeleteResourceTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\DeleteResourcesBlockTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\DuplicateResourcesBlockTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\EditResourceTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\ResourcesTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\SelectArrowTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\SelectButtonTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\SelectCursorPathTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\SelectExitCursorPathTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Assets\SelectResourceTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\ChangeElementReferenceTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\ChangeForcePlayerInSceneTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\ChangeNSDestinyPositionTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\ChangePlayerScaleTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\ChangePositionTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\ChangeRectangleValueTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Chapters\AddChapterTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Chapters\DeleteChapterTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\ChangeDescriptionSoundTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\ChangeDescriptionTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\ChangeDetailedDescriptionTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\ChangeDocumentationTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\ChangeIdTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\ChangeNameTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\ChangeSimpleSoundTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\ChangeTargetIdTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\ChangeTitleTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\DeleteDescriptionSoundTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\DeleteSimpleSoundTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Common text\SelectSimpleSoundTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Conditions\AddConditionTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Conditions\ClearConditionsTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Description\AddDescriptionTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Description\DuplicateDescriptionTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Description\RemoveDescriptionTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Effects\AddEffectTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Effects\DeleteEffectTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Effects\MoveEffectInTableTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Effects\ReplaceEffectTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Generic\ChangeBooleanValueTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Generic\ChangeIntegerValueTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Generic\ChangeLongValueTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Generic\ChangeStringValueTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\Generic\MoveObjectTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\General\InvalidExitCursorTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Scene\AddTrajectoryNodeTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Scene\AddTrajectorySideTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Scene\DeleteTrajectoryNodeTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Scene\DeleteTrajectorySideTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Scene\SetNodeValuesTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Scene\SetSideLengthTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Scene\SetTrajectoryInitialNodeTool.cs"
+"Assets\uAdventure\Editor\Engine logic\Controllers\Tools\Tool.cs"
+"Assets\uAdventure\Editor\Engine logic\GameResources.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\ActionsDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\AdaptationDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\AssessmentDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\AtrezzoDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\BookDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\ChapterDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\CharacterDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\ConditionsDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\ConversationDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\CutsceneDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\DOMWriterAttribute.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\DOMWriterUtility.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\DescriptionDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\DescriptorDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\Effects\RemoveElementEffectWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\EffectsDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\ExpectedGameIODOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\IDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\ItemDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\ParametrizedDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\PlayerDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\ResourcesDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\SceneDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\TimerDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\DOM writers\TrajectoryDOMWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\Writer\AnimationWriter.cs"
+"Assets\uAdventure\Editor\Engine logic\Writer\Writer\Writer.cs"
+Assets\uAdventure\Editor\FileChooser.cs
+Assets\uAdventure\Editor\FileInfoExtension.cs
+Assets\uAdventure\Editor\GraphEditor.cs
+Assets\uAdventure\Editor\HandleUtil.cs
+Assets\uAdventure\Editor\InputDialog.cs
+"Assets\uAdventure\Editor\Menu\Data model\MenuInterfaces.cs"
+"Assets\uAdventure\Editor\Menu\Data model\WindowMenuContainer.cs"
+"Assets\uAdventure\Editor\Menu\Data model\WindowMenuItem.cs"
+"Assets\uAdventure\Editor\Menu\Menu type\AboutMenu.cs"
+"Assets\uAdventure\Editor\Menu\Menu type\AdventureMenu.cs"
+"Assets\uAdventure\Editor\Menu\Menu type\ChaptersMenu.cs"
+"Assets\uAdventure\Editor\Menu\Menu type\ConfigurationMenu.cs"
+"Assets\uAdventure\Editor\Menu\Menu type\EditMenu.cs"
+"Assets\uAdventure\Editor\Menu\Menu type\FileMenu.cs"
+"Assets\uAdventure\Editor\Menu\Menu type\MenuItems\MenuItems.cs"
+"Assets\uAdventure\Editor\Menu\Menu type\RunMenu.cs"
+Assets\uAdventure\Editor\PreviewLayoutWindow.cs
+Assets\uAdventure\Editor\ResourcesEditor.cs
+Assets\uAdventure\Editor\ResourcesList.cs
+Assets\uAdventure\Editor\ResourcesPopup.cs
+Assets\uAdventure\Editor\SceneEditor.cs
+Assets\uAdventure\Editor\SceneEditorWindow.cs
+Assets\uAdventure\Editor\ScrollableList.cs
+Assets\uAdventure\Editor\Tests\AdventureCreationTests.cs
+Assets\uAdventure\Editor\Tests\JSONSerializationTests.cs
+Assets\uAdventure\Editor\Tests\MatrixTests.cs
+Assets\uAdventure\Editor\TextWithSoundField.cs
+Assets\uAdventure\Editor\TextsExporter.cs
+Assets\uAdventure\Editor\Util\Converter.cs
+Assets\uAdventure\Editor\Util\GUIScaleUtility.cs
+Assets\uAdventure\Editor\Util\MetadataUtility.cs
+Assets\uAdventure\Editor\Util\PreviewResizer.cs
+Assets\uAdventure\Editor\Util\TextureUtil.cs
+Assets\uAdventure\Editor\Windows\BuildWindow.cs
+"Assets\uAdventure\Editor\Windows\Data model\BaseWindow.cs"
+"Assets\uAdventure\Editor\Windows\Data model\LayoutWindow.cs"
+Assets\uAdventure\Editor\Windows\EditorWindowBase.cs
+Assets\uAdventure\Editor\Windows\LOWindows\Editors\ExtensionSerializedProperty.cs
+Assets\uAdventure\Editor\Windows\LOWindows\Editors\IdentifierDrawer.cs
+Assets\uAdventure\Editor\Windows\LOWindows\Editors\LangStringDrawer.cs
+Assets\uAdventure\Editor\Windows\LOWindows\Editors\LomTypeDrawer.cs
+Assets\uAdventure\Editor\Windows\LOWindows\Editors\imsmd_v1p2_enum_drawer.cs
+Assets\uAdventure\Editor\Windows\LOWindows\MultiMetaDataWindow.cs
+Assets\uAdventure\Editor\Windows\LOWindows\SimpleMetaDataWindow.cs
+Assets\uAdventure\Editor\Windows\RectangleComponentEditor.cs
+Assets\uAdventure\Editor\Windows\SettingsWindows\AdventureWindow.cs
+Assets\uAdventure\Editor\Windows\SettingsWindows\ButtonsWindow.cs
+Assets\uAdventure\Editor\Windows\SettingsWindows\CursorsWindow.cs
+Assets\uAdventure\Editor\Windows\SettingsWindows\InventoryWindow.cs
+Assets\uAdventure\Editor\Windows\SettingsWindows\SaveWindow.cs
+Assets\uAdventure\Editor\Windows\WelcomeWindow.cs
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Adaptation Profile\AdaptationProfileWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Advanced features\AdvancedFeaturesWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Advanced features\AdvancedFeaturesWindowGlobalStates.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Advanced features\AdvancedFeaturesWindowListOfTimers.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Advanced features\AdvancedFeaturesWindowMacros.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Books\BooksWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Books\BooksWindowAppearance.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Books\BooksWindowContents.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Books\BooksWindowDocumentation.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Books\IUnclippedDrawReceiver.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\ButtonMenuEditorWindowExtension.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Chapter\ChapterWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Characters\CharactersWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Characters\CharactersWindowActions.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Characters\CharactersWindowAppearance.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Characters\CharactersWindowDialogConfiguration.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Characters\CharactersWindowDocumentation.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Conversation\ConversationWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Cutscenes\CutscenesWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Cutscenes\CutscenesWindowAppearance.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Cutscenes\CutscenesWindowDocumentation.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Cutscenes\CutscenesWindowEndConfiguration.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\DataControlListEditorWindowExtension.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\DefaultButtonMenuEditorWindowExtension.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\EditorWindowBaseExtensionFactory.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\EditorWindowExtension.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\EditorWindowExtensionAttribute.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Items\ItemsWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Items\ItemsWindowActions.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Items\ItemsWindowAppearance.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Items\ItemsWindowDescription.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Player\PlayerWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Player\PlayerWindowDocumentation.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\PreviewDataControlExtension.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\ReorderableListEditorWindowExtension.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Scenes\ScenesWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Scenes\ScenesWindowActiveAreas.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Scenes\ScenesWindowAppearance.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Scenes\ScenesWindowBarriers.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Scenes\ScenesWindowDocumentation.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Scenes\ScenesWindowElementReference.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Scenes\ScenesWindowExits.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Scenes\ScenesWindowPlayerMovement.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Set items\SetItemsWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Set items\SetItemsWindowApperance.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\Set items\SetItemsWindowDocumentation.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\TabsEditorWindowExtension.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Editor window\TabsManager.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Welcome window\NewGameWindow.cs"
+"Assets\uAdventure\Editor\Windows\Windows types\Welcome window\OpenGameWindow.cs"
+Assets\uAdventure\Editor\Windows\uAdventureWindowMain.cs
+Assets\uAdventure\Editor\Windows\uAdventureWindowMetaData.cs
+Assets\uAdventure\Editor\Windows\uAdventureWindowSettings.cs
+Assets\uAdventure\Plugins\com.malee.reorderablelist@ac1f508240\Editor\ReorderableDrawer.cs
+Assets\uAdventure\Plugins\com.malee.reorderablelist@ac1f508240\Editor\ReorderableList.cs
+Assets\uAdventureAnalytics\Editor\AnalyticsController.cs
+Assets\uAdventureAnalytics\Editor\DataControl\CompletableDataControl.cs
+Assets\uAdventureAnalytics\Editor\DataControl\CompletableListDataControl.cs
+Assets\uAdventureAnalytics\Editor\DataControl\TrackerConfigDataControl.cs
+Assets\uAdventureAnalytics\Editor\Window\AnalyticsWindow.cs
+Assets\uAdventureAnalytics\Editor\Window\CompletablesWindow.cs
+Assets\uAdventureAnalytics\Editor\Window\MilestoneEditorWindow.cs
+Assets\uAdventureAnalytics\Editor\Window\ProgressEditorWindow.cs
+Assets\uAdventureAnalytics\Editor\Window\TrackerConfigWindow.cs
+Assets\uAdventureAnalytics\Editor\Writer\CompletableDOMWriter.cs
+Assets\uAdventureAnalytics\Editor\Writer\TrackerConfigDOMWriter.cs
+Assets\uAdventureGeo\Editor\DataControls\ExtElementRefDataControl.cs
+Assets\uAdventureGeo\Editor\DataControls\GMLGeometryDataControl.cs
+Assets\uAdventureGeo\Editor\DataControls\GameplayAreaDataControl.cs
+Assets\uAdventureGeo\Editor\DataControls\GeoActionDataControl.cs
+Assets\uAdventureGeo\Editor\DataControls\GeoController.cs
+Assets\uAdventureGeo\Editor\DataControls\GeoElementDataControl.cs
+Assets\uAdventureGeo\Editor\DataControls\GeoElementRefDataControl.cs
+Assets\uAdventureGeo\Editor\DataControls\MapElementDataControl.cs
+Assets\uAdventureGeo\Editor\DataControls\MapSceneDataControl.cs
+Assets\uAdventureGeo\Editor\DrawerParametersWindow.cs
+Assets\uAdventureGeo\Editor\GeoElement\GUIMapPositionManagerFactory.cs
+Assets\uAdventureGeo\Editor\GeoElement\GUIMapPositionManagerUtility.cs
+Assets\uAdventureGeo\Editor\GeoElement\GUIMapPositionManagers\AbstractGUIMapPositionManager.cs
+Assets\uAdventureGeo\Editor\GeoElement\GUIMapPositionManagers\GeolocationGuiMapPositionManager.cs
+Assets\uAdventureGeo\Editor\GeoElement\GUIMapPositionManagers\RadialGuiMapPositionManager.cs
+Assets\uAdventureGeo\Editor\GeoElement\GUIMapPositionManagers\ScreenGuiMapPositionManager.cs
+Assets\uAdventureGeo\Editor\GeoElement\GeoElementWindowActions.cs
+Assets\uAdventureGeo\Editor\GeoElement\GeoElementWindowDescription.cs
+Assets\uAdventureGeo\Editor\GeoElement\GeoElementWindowGeometry.cs
+Assets\uAdventureGeo\Editor\GeoElement\IGUIMapPositionManager.cs
+Assets\uAdventureGeo\Editor\GeoElementWindow.cs
+Assets\uAdventureGeo\Editor\MapEditor.cs
+Assets\uAdventureGeo\Editor\MapEditorWindow.cs
+Assets\uAdventureGeo\Editor\MapScene\MapSceneWindowAppearance.cs
+Assets\uAdventureGeo\Editor\MapScene\MapSceneWindowDocumentation.cs
+Assets\uAdventureGeo\Editor\MapScene\MapSceneWindowReferences.cs
+Assets\uAdventureGeo\Editor\MapSceneWindow.cs
+Assets\uAdventureGeo\Editor\TileManager\ITileStorer.cs
+Assets\uAdventureGeo\Editor\TileManager\TileStorage.cs
+Assets\uAdventureGeo\Editor\TileManager\TileStorers\PngTextureStorer.cs
+Assets\uAdventureGeo\Editor\Util\AreaMeta.cs
+Assets\uAdventureGeo\Editor\Util\DropDown.cs
+Assets\uAdventureGeo\Editor\Util\MapWindow.cs
+Assets\uAdventureGeo\Editor\Util\PlaceSearcher.cs
+Assets\uAdventureGeo\Editor\Util\ProgressController.cs
+Assets\uAdventureGeo\Editor\Util\RadialSlider.cs
+Assets\uAdventureGeo\Editor\Util\TileUtil.cs
+Assets\uAdventureGeo\Editor\Writers\Effects\NavigateEffectDOMWriter.cs
+Assets\uAdventureGeo\Editor\Writers\Effects\NavigationControlEffectDOMWriter.cs
+Assets\uAdventureGeo\Editor\Writers\Effects\TriggerZonedSceneEffectDOMWriter.cs
+Assets\uAdventureGeo\Editor\Writers\GeoActionWriter.cs
+Assets\uAdventureGeo\Editor\Writers\GeoElementWriter.cs
+Assets\uAdventureGeo\Editor\Writers\MapSceneDOMWriter.cs
+Assets\uAdventureGeo\MapzenGo\Helpers\Search\Editor\SearchPlaceEditor.cs
+Assets\uAdventureGeo\MapzenGo\Models\Settings\Editor\HelperExtention.cs
+Assets\uAdventureGeo\MapzenGo\Models\Settings\Editor\LayerSettingWindows.cs
+Assets\uAdventureGeo\Model\Effects\Editor\NavigateEffectEditor.cs
+Assets\uAdventureGeo\Model\Effects\Editor\NavigationControlEffectEditor.cs
+Assets\uAdventureGeo\Model\Effects\Editor\TriggerZonedSceneEffectEditor.cs
+Assets\uAdventureQR\Editor\DataControl\QRCodeDataControl.cs
+Assets\uAdventureQR\Editor\QRCodeEditorWindow.cs
+Assets\uAdventureQR\Editor\QRCodeWriter.cs
+Assets\uAdventureQR\Editor\QRCodesWindow.cs
+Assets\uAdventureQR\Editor\QRController.cs
+Assets\uAdventureQR\Editor\QRScannerEffectEditor.cs
+Assets\uAdventureQR\Editor\QRScannerEffectWriter.cs
+Assets\uAdventureSimva\Editor\SimvaWindow.cs
+Assets\uAdventureSimva\Editor\Writer\SimvaSceneWriter.cs
+Assets\uAdventureUnity\Editor\DataControl\UnitySceneDataControl.cs
+Assets\uAdventureUnity\Editor\UnityScenePluginController.cs
+Assets\uAdventureUnity\Editor\Window\UnitySceneWindow.cs
+Assets\uAdventureUnity\Editor\Writer\UnitySceneDOMWriter.cs
