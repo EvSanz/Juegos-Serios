@@ -67,7 +67,7 @@
       </talk-to>
     </actions>
   </character>
-  <scene id="FirstDay" hideInventory="no" allowsZoom="no" allowsSavingGame="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+  <scene id="FirstDay" hideInventory="yes" allowsZoom="no" allowsSavingGame="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
     <documentation>
     </documentation>
     <resources name="">
@@ -88,16 +88,17 @@
     </name>
     <default-initial-position x="400" y="300" />
     <exits>
-      <exit rectangular="yes" x="165" y="89" width="30" height="30" hasInfluenceArea="no" idTarget="SecondDay" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
-        <exit-look text="" />
+      <exit rectangular="yes" x="166" y="88" width="30" height="30" hasInfluenceArea="no" idTarget="SecondDay" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+        <exit-look text="" cursor-path="" sound-path="" />
       </exit>
     </exits>
     <objects>
       <object-ref idTarget="Comment" x="128" y="73" scale="0.07858686" glow="no" layer="0" hasInfluenceArea="no" />
       <object-ref idTarget="Like" x="154" y="73" scale="0.02964559" glow="no" layer="1" hasInfluenceArea="no" />
+      <object-ref idTarget="Logout" x="181" y="123" scale="0.8142142" glow="no" layer="2" hasInfluenceArea="no" />
     </objects>
   </scene>
-  <scene id="SecondDay" hideInventory="no" allowsZoom="no" allowsSavingGame="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+  <scene id="SecondDay" hideInventory="yes" allowsZoom="no" allowsSavingGame="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
     <documentation>
     </documentation>
     <resources name="">
@@ -106,7 +107,7 @@
       </condition>
       <asset type="bgmusic" uri="" />
       <asset type="standup" uri="assets/special/EmptyImage" />
-      <asset type="background" uri="assets/background/images.png" />
+      <asset type="background" uri="assets/background/descarga.png" />
     </resources>
     <resources name="">
       <condition>
@@ -117,18 +118,10 @@
     <name>
     </name>
     <default-initial-position x="400" y="300" />
-    <exits>
-      <exit rectangular="no" x="2147483647" y="2147483647" width="1" height="1" hasInfluenceArea="no" idTarget="FirstDay" destinyY="-1" destinyX="-1" transitionType="0" transitionTime="0" not-effects="no">
-        <exit-look text="Leave the office" cursor-path="" sound-path="" />
-        <condition>
-          <inactive flag="PhoneAnswered" />
-        </condition>
-        <effect>
-          <speak-player guid="149114c8-fc77-4e5d-a18b-ed228e4c0f54">The phone is ringing!</speak-player>
-          <condition />
-        </effect>
-      </exit>
-    </exits>
+    <objects>
+      <object-ref idTarget="Comment" x="194" y="105" scale="0.113899" glow="no" layer="0" hasInfluenceArea="no" />
+      <object-ref idTarget="Like" x="230" y="106" scale="0.04492844" glow="no" layer="1" hasInfluenceArea="no" />
+    </objects>
   </scene>
   <slidescene id="Introduction" start="yes" idTarget="FirstDay" destinyX="-1" destinyY="-1" transitionTime="0" transitionType="0" next="new-scene" class="accesible" type="screen">
     <documentation>
