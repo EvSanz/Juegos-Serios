@@ -88,6 +88,36 @@
     </name>
     <default-initial-position x="400" y="300" />
     <exits>
+      <exit rectangular="yes" x="165" y="89" width="30" height="30" hasInfluenceArea="no" idTarget="SecondDay" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+        <exit-look text="" />
+      </exit>
+    </exits>
+    <objects>
+      <object-ref idTarget="Comment" x="128" y="73" scale="0.07858686" glow="no" layer="0" hasInfluenceArea="no" />
+      <object-ref idTarget="Like" x="154" y="73" scale="0.02964559" glow="no" layer="1" hasInfluenceArea="no" />
+    </objects>
+  </scene>
+  <scene id="SecondDay" hideInventory="no" allowsZoom="no" allowsSavingGame="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="">
+      <condition>
+        <inactive flag="PhoneAnswered" />
+      </condition>
+      <asset type="bgmusic" uri="" />
+      <asset type="standup" uri="assets/special/EmptyImage" />
+      <asset type="background" uri="assets/background/images.png" />
+    </resources>
+    <resources name="">
+      <condition>
+        <active flag="PhoneAnswered" />
+      </condition>
+      <asset type="background" uri="assets/background/PlayerOffice.jpg" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="300" />
+    <exits>
       <exit rectangular="no" x="2147483647" y="2147483647" width="1" height="1" hasInfluenceArea="no" idTarget="FirstDay" destinyY="-1" destinyX="-1" transitionType="0" transitionTime="0" not-effects="no">
         <exit-look text="Leave the office" cursor-path="" sound-path="" />
         <condition>
@@ -99,10 +129,6 @@
         </effect>
       </exit>
     </exits>
-    <objects>
-      <object-ref idTarget="Like" x="137" y="43" scale="0.01229233" glow="yes" layer="1" hasInfluenceArea="no" />
-      <object-ref idTarget="Comment" x="124" y="45" scale="0.03895849" glow="no" layer="0" hasInfluenceArea="no" />
-    </objects>
   </scene>
   <slidescene id="Introduction" start="yes" idTarget="FirstDay" destinyX="-1" destinyY="-1" transitionTime="0" transitionType="0" next="new-scene" class="accesible" type="screen">
     <documentation>
@@ -159,6 +185,20 @@
   </object>
   <object id="Followers" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
     <resources name="Followers">
+      <asset type="image" uri="assets/special/EmptyImage.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="Logout" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
       <asset type="image" uri="assets/special/EmptyImage.png" />
       <asset type="icon" uri="assets/special/EmptyIcon.png" />
     </resources>

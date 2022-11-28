@@ -32,7 +32,9 @@
 <entry key="Chapter0.StairsAndElevator.X">128</entry>
 <entry key="Chapter0.HallEnd.X">428</entry>
 <entry key="Chapter0.HallMiddle.Visible">true</entry>
-<entry key="Chapter0.FirstDay.X">37</entry>
-<entry key="Chapter0.FirstDay.Y">96</entry>
+<entry key="Chapter0.FirstDay.X">49</entry>
+<entry key="Chapter0.FirstDay.Y">92</entry>
+<entry key="Chapter0.FirstDay1.X">57</entry>
+<entry key="Chapter0.FirstDay1.Y">43</entry>
 </properties>
 
