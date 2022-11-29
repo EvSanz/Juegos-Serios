@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class UIManager : MonoBehaviour
 {
     [SerializeField]
-    Text followers;
+    Text followers, hora, fecha;
+
+    DateTime DateFetcher;
     
     // Start is called before the first frame update
     void Start()
@@ -18,10 +21,18 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         GameManager.GetInstance().UIManagerUpdate(this);
+        DateFetcher = DateTime.Now;
+        updateDate();
     }
 
     public void UpdateFollowers(int n)
     {
         followers.text = n.ToString() + " Seguidores";
+    }
+
+    private void updateDate()
+    {
+        hora.text = DateFetcher.Hour.ToString() + " : " + DateFetcher.Minute.ToString();
+        fecha.text = DateFetcher.Day.ToString() + " / " + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
     }
 }
