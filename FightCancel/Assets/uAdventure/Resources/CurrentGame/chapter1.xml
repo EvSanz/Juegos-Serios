@@ -17,9 +17,9 @@
       <asset type="useleft" uri="assets/special/EmptyAnimation" />
       <asset type="standleft" uri="assets/special/EmptyAnimation" />
     </resources>
-    <textcolor showsSpeechBubble="no" bubbleBkgColor="#FFFFFF" bubbleBorderColor="#000000">
-      <frontcolor color="#FFFFFF" />
-      <bordercolor color="#000000" />
+    <textcolor showsSpeechBubble="yes" bubbleBkgColor="#FFFFFF" bubbleBorderColor="#000000">
+      <frontcolor color="#000000" />
+      <bordercolor color="#FFFFFF" />
     </textcolor>
     <description>
       <name>
@@ -31,42 +31,6 @@
     </description>
     <voice name="" synthesizeAlways="no" />
   </player>
-  <character id="Balta" behaviour="normal">
-    <resources name="">
-      <asset type="standup" uri="assets/animation/Balta" />
-      <asset type="standright" uri="assets/animation/Balta" />
-      <asset type="walkdown" uri="assets/animation/Balta" />
-      <asset type="speakup" uri="assets/animation/Balta" />
-      <asset type="walkright" uri="assets/animation/Balta" />
-      <asset type="walkleft" uri="assets/special/EmptyAnimation" />
-      <asset type="walkup" uri="assets/animation/Balta" />
-      <asset type="speakdown" uri="assets/animation/Balta" />
-      <asset type="speakright" uri="assets/animation/Balta" />
-      <asset type="standdown" uri="assets/animation/Balta" />
-      <asset type="useright" uri="assets/animation/Balta" />
-      <asset type="speakleft" uri="assets/special/EmptyAnimation" />
-      <asset type="useleft" uri="assets/special/EmptyAnimation" />
-      <asset type="standleft" uri="assets/special/EmptyAnimation" />
-    </resources>
-    <textcolor showsSpeechBubble="no" bubbleBkgColor="#FFFFFF" bubbleBorderColor="#000000">
-      <frontcolor color="#FF0000" />
-      <bordercolor color="#FFFF00" />
-    </textcolor>
-    <description>
-      <name>Balta</name>
-      <brief>Baltasar Fernandez</brief>
-      <detailed>This is Baltasar Fernandez</detailed>
-    </description>
-    <voice name="" synthesizeAlways="no" />
-    <actions>
-      <talk-to needsGoTo="yes" keepDistance="35" not-effects="no">
-        <effect>
-          <trigger-conversation idTarget="BuildingEvacuation" guid="a5fe91b9-872c-4014-8020-f7f10ddb973a" />
-          <condition />
-        </effect>
-      </talk-to>
-    </actions>
-  </character>
   <scene id="FirstDay" hideInventory="yes" allowsZoom="no" allowsSavingGame="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
     <documentation>
     </documentation>
@@ -76,7 +40,7 @@
       </condition>
       <asset type="bgmusic" uri="" />
       <asset type="standup" uri="assets/special/EmptyImage" />
-      <asset type="background" uri="assets/background/images.png" />
+      <asset type="background" uri="assets/background/Fondo.png" />
     </resources>
     <resources name="">
       <condition>
@@ -88,14 +52,18 @@
     </name>
     <default-initial-position x="400" y="300" />
     <exits>
-      <exit rectangular="yes" x="166" y="88" width="30" height="30" hasInfluenceArea="no" idTarget="SecondDay" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
+      <exit rectangular="yes" x="1824" y="974" width="76" height="86" hasInfluenceArea="no" idTarget="SecondDay" destinyY="-2147483648" destinyX="-2147483648" destinyScale="1" transitionType="0" transitionTime="0" not-effects="no">
         <exit-look text="" cursor-path="" sound-path="" />
       </exit>
     </exits>
     <objects>
-      <object-ref idTarget="Comment" x="128" y="73" scale="0.07858686" glow="no" layer="0" hasInfluenceArea="no" />
-      <object-ref idTarget="Like" x="154" y="73" scale="0.02964559" glow="no" layer="1" hasInfluenceArea="no" />
-      <object-ref idTarget="Logout" x="181" y="123" scale="0.8142142" glow="no" layer="2" hasInfluenceArea="no" />
+      <object-ref idTarget="Comment" x="1160" y="615" scale="0.4238802" glow="no" layer="0" hasInfluenceArea="no" />
+      <object-ref idTarget="Like" x="1620" y="180" scale="0.2" glow="yes" layer="1" hasInfluenceArea="no" />
+      <object-ref idTarget="Logout" x="1858" y="1052" scale="1.59948" glow="no" layer="6" hasInfluenceArea="no" />
+      <object-ref idTarget="Comment2" x="1163" y="810" scale="0.4223292" glow="no" layer="5" hasInfluenceArea="no" />
+      <object-ref idTarget="Like" x="1620" y="750" scale="0.2" glow="yes" layer="2" hasInfluenceArea="no" />
+      <object-ref idTarget="Comment3" x="1167" y="993" scale="0.4298604" glow="no" layer="4" hasInfluenceArea="no" />
+      <object-ref idTarget="Like" x="1620" y="950" scale="0.2" glow="no" layer="3" hasInfluenceArea="no" />
     </objects>
   </scene>
   <scene id="SecondDay" hideInventory="yes" allowsZoom="no" allowsSavingGame="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
@@ -107,7 +75,7 @@
       </condition>
       <asset type="bgmusic" uri="" />
       <asset type="standup" uri="assets/special/EmptyImage" />
-      <asset type="background" uri="assets/background/descarga.png" />
+      <asset type="background" uri="assets/background/Fondo.png" />
     </resources>
     <resources name="">
       <condition>
@@ -119,8 +87,10 @@
     </name>
     <default-initial-position x="400" y="300" />
     <objects>
-      <object-ref idTarget="Comment" x="194" y="105" scale="0.113899" glow="no" layer="0" hasInfluenceArea="no" />
-      <object-ref idTarget="Like" x="230" y="106" scale="0.04492844" glow="no" layer="1" hasInfluenceArea="no" />
+      <object-ref idTarget="Like" x="1620" y="200" scale="0.2" glow="no" layer="1" hasInfluenceArea="no" />
+      <object-ref idTarget="Comment4" x="1109" y="608" scale="0.4209409" glow="no" layer="0" hasInfluenceArea="no" />
+      <object-ref idTarget="Comment5" x="1105" y="1152" scale="0.4181038" glow="no" layer="3" hasInfluenceArea="no" />
+      <object-ref idTarget="Like" x="1620" y="750" scale="0.2" glow="no" layer="2" hasInfluenceArea="no" />
     </objects>
   </scene>
   <slidescene id="Introduction" start="yes" idTarget="FirstDay" destinyX="-1" destinyY="-1" transitionTime="0" transitionType="0" next="new-scene" class="accesible" type="screen">
@@ -138,14 +108,8 @@
         <inactive flag="PhoneAnswered" />
       </condition>
       <asset type="icon" uri="assets/special/EmptyIcon.png" />
-      <asset type="image" uri="assets/image/like.png" />
-    </resources>
-    <resources name="">
-      <condition>
-        <active flag="PhoneAnswered" />
-      </condition>
-      <asset type="icon" uri="assets/special/EmptyIcon.png" />
-      <asset type="image" uri="assets/image/like.png" />
+      <asset type="image" uri="assets/image/free-heart-icon-492-thumb.png" />
+      <asset type="imageover" uri="assets/image/like.png" />
     </resources>
     <description>
       <name>Like</name>
@@ -154,22 +118,37 @@
       <detailed>Me gusta este comentario</detailed>
     </description>
     <actions>
-      <use needsGoTo="yes" keepDistance="35" not-effects="no">
+      <examine needsGoTo="no" keepDistance="0" not-effects="no">
         <effect>
-          <remove-element idTarget="Like" guid="1ad26447-1749-4508-aa5b-b178b9c0c9bd" />
+          <increment var="LikeActivado" value="1" guid="289dc4df-af03-4bff-b23a-5f9087f28f42" />
+          <condition />
+          <remove-element idTarget="Like" guid="8e696acd-c689-43d7-95e2-2bb3b939a4f2" />
           <condition />
         </effect>
-      </use>
+      </examine>
     </actions>
   </object>
   <object id="Comment" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
     <resources name="No name">
-      <asset type="image" uri="assets/image/comment.png" />
+      <asset type="image" uri="assets/image/Proyecto nuevo (4).png" />
       <asset type="icon" uri="assets/special/EmptyIcon.png" />
     </resources>
     <description>
       <name>
       </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="Comment2" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/tweet.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>Tweet2</name>
       <brief>
       </brief>
       <detailed>
@@ -204,183 +183,64 @@
       </detailed>
     </description>
   </object>
-  <graph-conversation id="BuildingEvacuation">
-    <dialogue-node nodeindex="0" editor-x="0" editor-y="0">
-      <speak-char idTarget="Balta">
-        <resources name="No name" />
-        <text>Hey Pablo, what's that noise?</text>
-      </speak-char>
-      <condition />
-      <speak-player>
-        <resources name="No name" />
-        <text>There's a fire in the buliding, we must evacuate all staff immediately</text>
-      </speak-player>
-      <condition />
-      <speak-char idTarget="Balta">
-        <resources name="No name" />
-        <text>And where is the fire?</text>
-      </speak-char>
-      <condition />
-      <child nodeindex="1" />
-    </dialogue-node>
-    <option-node nodeindex="1" preListening="yes" editor-x="0" editor-y="0" x="0" y="0">
-      <speak-player>
-        <text>That doesn't matter at all!</text>
-        <resources name="No name" />
-      </speak-player>
-      <condition />
-      <child nodeindex="2" />
-      <speak-player>
-        <text>In office 411</text>
-        <resources name="No name" />
-      </speak-player>
-      <condition />
-      <child nodeindex="3" />
-      <speak-player>
-        <text>In office 411, it's a huge fire. Every man for himself!</text>
-        <resources name="No name" />
-      </speak-player>
-      <condition />
-      <child nodeindex="4" />
-    </option-node>
-    <dialogue-node nodeindex="2" editor-x="0" editor-y="0">
-      <speak-char idTarget="Balta">
-        <resources name="No name" />
-        <text>You're not helping me, I can't know where to go</text>
-      </speak-char>
-      <condition />
-      <child nodeindex="1" />
-    </dialogue-node>
-    <dialogue-node nodeindex="3" editor-x="0" editor-y="0">
-      <speak-char idTarget="Balta">
-        <resources name="No name" />
-        <text>Wow, it's everyone OK?</text>
-      </speak-char>
-      <condition />
-      <child nodeindex="5" />
-    </dialogue-node>
-    <dialogue-node nodeindex="4" editor-x="0" editor-y="0">
-      <speak-char idTarget="Balta">
-        <resources name="No name" />
-        <text>Help! Run!</text>
-      </speak-char>
-      <condition />
-      <end-conversation>
-        <effect>
-          <activate flag="PanicSituationFlag" guid="ef28d839-acd5-4859-a28c-bbb9abfd4039" />
-          <condition />
-          <activate flag="GameOver" guid="4f7e7704-75d4-48c6-9374-fc4171c96ac5" />
-          <condition />
-        </effect>
-      </end-conversation>
-    </dialogue-node>
-    <option-node nodeindex="5" preListening="yes" editor-x="0" editor-y="0" x="0" y="0">
-      <speak-player>
-        <text>The office was empty. I guess everyone fled when the fire started.</text>
-        <resources name="No name" />
-      </speak-player>
-      <condition />
-      <child nodeindex="6" />
-      <speak-player>
-        <text>I think we lost all the helpers, every man for himself!</text>
-        <resources name="No name" />
-      </speak-player>
-      <condition />
-      <child nodeindex="7" />
-    </option-node>
-    <dialogue-node nodeindex="6" editor-x="0" editor-y="0">
-      <speak-char idTarget="Balta">
-        <resources name="No name" />
-        <text>Ok, fine, let me finish this backups and I'll be downstairs in a minute...</text>
-      </speak-char>
-      <condition />
-      <child nodeindex="8" />
-    </dialogue-node>
-    <dialogue-node nodeindex="7" editor-x="0" editor-y="0">
-      <end-conversation>
-        <effect>
-          <activate flag="GameOver" guid="8b395728-9bcb-4bff-82fc-727906d9895c" />
-          <condition />
-          <activate flag="PanicSituationFlag" guid="4ac790fd-0649-4225-b6d7-fb7e865d2791" />
-          <condition />
-        </effect>
-      </end-conversation>
-    </dialogue-node>
-    <option-node nodeindex="8" preListening="yes" editor-x="0" editor-y="0" x="0" y="0">
-      <speak-player>
-        <text>No way! It's a serious fire, we must keep calm but evacuate fast.</text>
-        <resources name="No name" />
-      </speak-player>
-      <condition />
-      <child nodeindex="9" />
-      <speak-player>
-        <text>Don't be silly, we have to evacuate the building NOW!</text>
-        <resources name="No name" />
-      </speak-player>
-      <condition />
-      <child nodeindex="10" />
-    </option-node>
-    <dialogue-node nodeindex="9" editor-x="0" editor-y="0">
-      <child nodeindex="11" />
-    </dialogue-node>
-    <dialogue-node nodeindex="10" editor-x="0" editor-y="0">
-      <child nodeindex="11" />
-    </dialogue-node>
-    <dialogue-node nodeindex="11" editor-x="0" editor-y="0">
-      <speak-char idTarget="Balta">
-        <resources name="No name" />
-        <text>Ok, fine, take it easy, I didn't think  it was so urgent...</text>
-      </speak-char>
-      <condition />
-      <speak-player>
-        <resources name="No name" />
-        <text>Well, it is, we have to move fast, but calmly.</text>
-      </speak-player>
-      <condition />
-      <speak-char idTarget="Balta">
-        <resources name="No name" />
-        <text>OK, let me get my things and we go</text>
-      </speak-char>
-      <condition />
-      <child nodeindex="12" />
-    </dialogue-node>
-    <option-node nodeindex="12" preListening="yes" editor-x="0" editor-y="0" x="0" y="0">
-      <speak-player>
-        <text>Ok, but hurry up</text>
-        <resources name="No name" />
-      </speak-player>
-      <condition />
-      <child nodeindex="13" />
-      <speak-player>
-        <text>I said no, you can't check anything. We leave now.</text>
-        <resources name="No name" />
-      </speak-player>
-      <condition />
-      <child nodeindex="14" />
-    </option-node>
-    <dialogue-node nodeindex="13" editor-x="0" editor-y="0">
-      <end-conversation>
-        <effect>
-          <activate flag="DejaQueBaltaSeEntretenga" guid="9220be4a-f8ae-4d56-8bce-df58425b4078" />
-          <condition />
-          <activate flag="CheckedOffice414" guid="fcd2abf1-3f76-47ca-b508-b707a8a21f7b" />
-          <condition />
-          <activate flag="FinishConversation" guid="489558da-e889-4fd2-8ea5-02b4e1cc98dd" />
-          <condition />
-        </effect>
-      </end-conversation>
-    </dialogue-node>
-    <dialogue-node nodeindex="14" editor-x="0" editor-y="0">
-      <end-conversation>
-        <effect>
-          <activate flag="CheckedOffice414" guid="e3dea4f7-a5a5-4984-91d6-2c7a3e4ede1d" />
-          <condition />
-          <activate flag="FinishConversation" guid="e40e2c1f-7fd5-421b-a6e3-0e6756cae2fb" />
-          <condition />
-        </effect>
-      </end-conversation>
-    </dialogue-node>
-  </graph-conversation>
+  <object id="LikeConfirmado" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/like.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <condition>
+        <equals var="LikeActivado" value="1" />
+      </condition>
+      <name>LikeActivado</name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="Comment3" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/Tweet2.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="Comment4" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/Tweet3.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="Comment5" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/Proyecto nuevaaao.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
   <timer time="240" usesEndCondition="yes" multipleStarts="yes" runsInLoop="yes" showTime="no" displayName="timer" countDown="yes" showWhenStopped="no">
     <init-condition>
       <active flag="PhoneAnswered" />
@@ -395,4 +255,26 @@
       <condition />
     </effect>
   </timer>
+  <graph-conversation id="IntroduccionPrimerDia">
+    <dialogue-node nodeindex="0" editor-x="264" editor-y="37">
+      <speak-player>
+        <resources name="No name">
+          <asset type="image" uri="" />
+        </resources>
+        <text>Hace mucho tiempo que no reviso Twetti</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>Quizás debería hacer alguna publicación</text>
+      </speak-player>
+      <condition />
+      <speak-player>
+        <resources name="No name" />
+        <text>¡Oh, tal vez hasta podría ver si Ash ha subido un post!</text>
+      </speak-player>
+      <condition />
+      <end-conversation />
+    </dialogue-node>
+  </graph-conversation>
 </eAdventure>
