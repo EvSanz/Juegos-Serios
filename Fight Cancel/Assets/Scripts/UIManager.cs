@@ -32,7 +32,24 @@ public class UIManager : MonoBehaviour
 
     private void updateDate()
     {
-        hora.text = DateFetcher.Hour.ToString() + " : " + DateFetcher.Minute.ToString();
-        fecha.text = DateFetcher.Day.ToString() + " / " + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
+        //ESCRIBIR HORA
+        if (DateFetcher.Hour < 10 && DateFetcher.Minute < 10)
+            hora.text = "0" + DateFetcher.Hour.ToString() + " : 0" + DateFetcher.Minute.ToString();
+        else if (DateFetcher.Hour < 10)
+            hora.text = "0" + DateFetcher.Hour.ToString() + " : " + DateFetcher.Minute.ToString();
+        else if (DateFetcher.Minute < 10)
+            hora.text = DateFetcher.Hour.ToString() + " : 0" + DateFetcher.Minute.ToString();
+        else
+            hora.text = DateFetcher.Hour.ToString() + " : " + DateFetcher.Minute.ToString();
+
+        //ESCRIBIR FECHA
+        if(DateFetcher.Day < 10 && DateFetcher.Month < 10)
+            fecha.text = "0" + DateFetcher.Day.ToString() + " / 0" + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
+        else if (DateFetcher.Day < 10)
+            fecha.text = "0" + DateFetcher.Day.ToString() + " / " + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
+        else if (DateFetcher.Month < 10)
+            fecha.text = DateFetcher.Day.ToString() + " / 0" + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
+        else
+            fecha.text = DateFetcher.Day.ToString() + " / " + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
     }
 }
