@@ -68,4 +68,9 @@ public class GameManager : MonoBehaviour
     {
         return instance;
     }
+    public void ChangeScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+        //Time.timeScale = 1;
+    }
 }
