@@ -5,7 +5,6 @@ using UnityEngine;
 public class SceneLoader : MonoBehaviour
 {
     public Animator transition;
-    public float transitionTime = 1.0f;
     public string sceneName;
     // Start is called before the first frame update
     void Start()
@@ -18,19 +17,11 @@ public class SceneLoader : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            LoadLevel();
+            LoadNextLevel();
         }
     }
-    public void LoadLevel()
+    void LoadNextLevel()
     {
-        //StartCoroutine(LoadNextLevel());
-        LoadNextLevel();
-    }
-    /*IEnumerator*/ void LoadNextLevel()
-    {
-        //transition.SetTrigger("Start");
-        //yield return new WaitForSeconds(transitionTime);
         GameManager.GetInstance().ChangeScene(sceneName);
     }
-   
 }

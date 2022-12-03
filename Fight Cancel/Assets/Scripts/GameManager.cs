@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     int seguidores = 200;
     int post = 0;
-    int likes = 0, dislikes = 0;
+    float likes = 1, dislikes = 1;
 
     private void Awake()
     {
@@ -62,6 +62,7 @@ public class GameManager : MonoBehaviour
     {
         UIManager = uim;
         UIManager.UpdateFollowers(seguidores);
+        UIManager.UpdateSlider(likes, dislikes);
     }
 
     public static GameManager GetInstance()
@@ -71,6 +72,5 @@ public class GameManager : MonoBehaviour
     public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
-        //Time.timeScale = 1;
     }
 }
