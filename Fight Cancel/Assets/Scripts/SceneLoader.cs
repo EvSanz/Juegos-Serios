@@ -6,18 +6,15 @@ public class SceneLoader : MonoBehaviour
 {
     public Animator transition;
     public string sceneName;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public int maxActions; 
+
+    public void ClickExit()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (GameManager.GetInstance() != null)
         {
-            LoadNextLevel();
+            if (GameManager.GetInstance().GetPost() == maxActions)
+                LoadNextLevel();
         }
     }
     void LoadNextLevel()

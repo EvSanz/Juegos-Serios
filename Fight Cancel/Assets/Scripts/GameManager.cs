@@ -11,7 +11,9 @@ public class GameManager : MonoBehaviour
     //public static GameManager instance = null;
 
     int seguidores = 200;
+    int contador = 0; 
     int post = 0;
+
     float likes = 1, dislikes = 1;
 
     private void Awake()
@@ -28,6 +30,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        contador = seguidores; 
     }
 
     private void Update()
@@ -37,26 +40,20 @@ public class GameManager : MonoBehaviour
 
     public void LessFollowers(int lostFollowers)
     {
-        seguidores -= lostFollowers;
+        contador -= lostFollowers;
 
-        if (seguidores <= 0)
-            seguidores = 0;
+        if (contador <= 0)
+            contador = 0;
     }
 
     public void AddFollowers(int newFollowers)
     {
-        seguidores += newFollowers;
+        contador += newFollowers;
     }
 
-    public bool HowManyPost()
-    {
-        return post < 1;
-    }
+    public int GetPost() { return post; }
 
-    public void AddPost()
-    {
-        post++;
-    }
+    public void AddPost() { post++; }
 
     public void UIManagerUpdate(UIManager uim)
     {
@@ -71,6 +68,9 @@ public class GameManager : MonoBehaviour
     }
     public void ChangeScene(string sceneName)
     {
+        post = 0; 
+        seguidores = contador; 
+
         SceneManager.LoadScene(sceneName);
     }
 }

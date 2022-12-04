@@ -121,80 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &286823370
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3869339596004290612, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: sceneName
-      value: Dia5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290613, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_Name
-      value: SceneLoader
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290619, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290619, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290619, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 61.32415
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290619, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -124.33371
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290619, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290619, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290619, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290619, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290619, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290619, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869339596004290619, guid: 9846e2ee1bc99164f8eb75529709eb5a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9846e2ee1bc99164f8eb75529709eb5a, type: 3}
 --- !u!1001 &506429469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -363,6 +289,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5243159658183763715, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: sceneName
+      value: Dia5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243159658183763715, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: maxActions
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809414662575429150, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5891584982440662116, guid: 4a0196055e75655488f583377356546b,
         type: 3}
       propertyPath: m_Text
@@ -372,6 +313,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: bbbbbbbbbbbbbbbbbbbbbbb
+      objectReference: {fileID: 0}
+    - target: {fileID: 6436210329127573146, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583669862898896788, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796322426942112702, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7763705862693754711, guid: 4a0196055e75655488f583377356546b,
         type: 3}
