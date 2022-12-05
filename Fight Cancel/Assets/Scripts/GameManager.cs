@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
     private UIManager UIManager;
+    
     //public static GameManager instance = null;
 
     int seguidores = 200;
@@ -72,5 +73,6 @@ public class GameManager : MonoBehaviour
         seguidores = contador; 
 
         SceneManager.LoadScene(sceneName);
+
     }
 }
