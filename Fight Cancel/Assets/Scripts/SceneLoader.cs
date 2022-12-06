@@ -13,8 +13,13 @@ public class SceneLoader : MonoBehaviour
     {
         if (GameManager.GetInstance() != null)
         {
-            if (GameManager.GetInstance().GetPost() == maxActions)
+
+            if (GameManager.GetInstance().GetPost() == maxActions && GameManager.GetInstance().GetLikeCelebrity())
+            {
                 LoadNextLevel();
+                Debug.Log("Se cambia de escena");
+
+            }
         }
     }
     void LoadNextLevel()

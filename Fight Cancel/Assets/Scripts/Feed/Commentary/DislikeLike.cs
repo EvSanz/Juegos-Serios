@@ -26,7 +26,7 @@ public class DislikeLike : MonoBehaviour
                     dislike.sprite = dislikePressed;
                     canClick = false;
                 }
-                else if(!isDislike)
+                else
                 {
 
                     GameManager.GetInstance().AddFollowers(followers);
@@ -47,7 +47,7 @@ public class DislikeLike : MonoBehaviour
     public void setPress(bool press)
     {
 
-        canClick = press; ;
+        canClick = press;
     }
 
 }

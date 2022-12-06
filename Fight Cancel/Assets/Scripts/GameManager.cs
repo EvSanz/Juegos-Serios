@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     int seguidores = 200;
     int contador = 0; 
     int post = 0;
+    bool likedCelebrity = false;
 
     float likes = 1, dislikes = 1;
 
@@ -70,9 +71,17 @@ public class GameManager : MonoBehaviour
     public void ChangeScene(string sceneName)
     {
         post = 0; 
-        seguidores = contador; 
-
+        seguidores = contador;
+        likedCelebrity = false;
         SceneManager.LoadScene(sceneName);
 
+    }
+    public void SetLikeCelebrity()
+    {
+        likedCelebrity = true;
+    }
+    public bool GetLikeCelebrity()
+    {
+        return likedCelebrity;
     }
 }
