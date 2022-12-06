@@ -10,8 +10,14 @@ public class Publish : MonoBehaviour
     {
         if (GameManager.GetInstance() != null)
         {
-            options[GameManager.GetInstance().GetPost()].SetActive(true);
-            GameManager.GetInstance().AddPost(); 
+            if (GameManager.GetInstance().GetPost() < options.Length)
+            {
+                options[GameManager.GetInstance().GetPost()].SetActive(true);
+                GameManager.GetInstance().AddPost();
+            }
+
+            else
+                print("No puedes poner más comentarios"); 
         }   
     }
 }
