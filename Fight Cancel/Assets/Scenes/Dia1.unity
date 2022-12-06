@@ -317,6 +317,16 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2657270424034076493, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_Text
+      value: Wayne Kest
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074237443048873333, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: isCelebrity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4702038379539911759, guid: 4a0196055e75655488f583377356546b,
         type: 3}
       propertyPath: m_RootOrder
@@ -331,6 +341,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891584983065497908, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_Name
+      value: CelebrityComment
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891584983414294077, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 97cb4ab61f559fc46a31a0451d85f458,
+        type: 3}
+    - target: {fileID: 5891584983594402230, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_Text
+      value: Empezando un proyecto para abrir nuevas escuelas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891584983594402230, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6436210329127573146, guid: 4a0196055e75655488f583377356546b,
         type: 3}
@@ -456,6 +487,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8543382494252594348, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -48.599762
+      objectReference: {fileID: 0}
+    - target: {fileID: 8543382494252594348, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -379.31567
+      objectReference: {fileID: 0}
+    - target: {fileID: 8543382494252594348, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.6000366
+      objectReference: {fileID: 0}
+    - target: {fileID: 8543382494252594348, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 174.66
       objectReference: {fileID: 0}
     - target: {fileID: 8543382494409787225, guid: 4a0196055e75655488f583377356546b,
         type: 3}
