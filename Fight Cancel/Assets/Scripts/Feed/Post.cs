@@ -6,23 +6,29 @@ using UnityEngine;
 public class Post : MonoBehaviour
 {
     public GameObject post, panelOpciones; 
-    public Text postTexto, comentarioTexto;
-    public Image postImage, comentarioImage; 
+    public Text comentarioTexto;
+    public Image postImage, comentarioImage;
+    public string texto;
+    public int likes, dislikes;
 
     public void PostText()
     {
-        if (postTexto != null)
-            comentarioTexto.text = postTexto.text;
+        if (texto != null)
+            comentarioTexto.text = texto;
 
-        DesactivarPaneles(); 
+        DesactivarPaneles();
+        GameManager.GetInstance().addMyLikes(likes);
+        GameManager.GetInstance().addMyDislikes(dislikes);
     }
 
     public void PostImage()
     {
         if (postImage != null)
             comentarioImage.sprite = postImage.sprite;
-
-        DesactivarPaneles(); 
+           
+        DesactivarPaneles();
+        GameManager.GetInstance().addMyLikes(likes);
+        GameManager.GetInstance().addMyDislikes(dislikes);
     }
 
     void DesactivarPaneles()
