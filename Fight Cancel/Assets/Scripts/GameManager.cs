@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     int contador = 0; 
     int post = 0;
     bool likedCelebrity = false;
+    int currentActions = 0;
 
     float likes = 1, dislikes = 1;
 
@@ -75,8 +76,8 @@ public class GameManager : MonoBehaviour
         post = 0; 
         seguidores = contador;
         likedCelebrity = false;
+        currentActions = 0;
         SceneManager.LoadScene(sceneName);
-
     }
     public void SetLikeCelebrity()
     {
@@ -93,5 +94,15 @@ public class GameManager : MonoBehaviour
     public void addMyDislikes(int n)
     {
         dislikes += n;
+    }
+    public void addAction()
+    {
+        currentActions++;
+        Debug.Log("+1 Accion");
+    }
+
+    public int getCurrentActions()
+    {
+        return currentActions;
     }
 }

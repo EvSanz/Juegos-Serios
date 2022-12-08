@@ -19,6 +19,7 @@ public class Post : MonoBehaviour
         DesactivarPaneles();
         GameManager.GetInstance().addMyLikes(likes);
         GameManager.GetInstance().addMyDislikes(dislikes);
+        GameManager.GetInstance().addAction();
     }
 
     public void PostImage()
@@ -29,6 +30,7 @@ public class Post : MonoBehaviour
         DesactivarPaneles();
         GameManager.GetInstance().addMyLikes(likes);
         GameManager.GetInstance().addMyDislikes(dislikes);
+        GameManager.GetInstance().addAction();
     }
 
     void DesactivarPaneles()
