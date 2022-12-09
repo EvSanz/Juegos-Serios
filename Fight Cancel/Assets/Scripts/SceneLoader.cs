@@ -4,24 +4,19 @@ using UnityEngine;
 
 public class SceneLoader : MonoBehaviour
 {
-    public Animator transition;
+    public GameObject gameObject;
     public string sceneName;
 
-    public int maxActions; 
+    public int maxActions;
 
-    //public void ClickExit()
-    //{
-    //    if (GameManager.GetInstance() != null)
-    //    {
-
-    //        if (GameManager.GetInstance().getCurrentActions() == maxActions /*&& GameManager.GetInstance().GetLikeCelebrity()*/)
-    //        {
-    //            LoadNextLevel();
-    //            Debug.Log("Se cambia de escena");
-
-    //        }
-    //    }
-    //}
+    public void ClickExit()
+    {
+        if (GameManager.GetInstance() != null)
+        {
+            LoadNextLevel();
+            Debug.Log("Se cambia de escena");
+        }
+    }
     void LoadNextLevel()
     {
         GameManager.GetInstance().ChangeScene(sceneName);
@@ -31,9 +26,7 @@ public class SceneLoader : MonoBehaviour
     {
         if (GameManager.GetInstance().getCurrentActions() == maxActions)
         {
-            System.Threading.Thread.Sleep(1000);
-            LoadNextLevel();
-            Debug.Log("Se cambia de escena");
+            gameObject.SetActive(true);
         }
     }
 }
