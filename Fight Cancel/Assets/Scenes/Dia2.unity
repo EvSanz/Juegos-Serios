@@ -1225,6 +1225,21 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9187851937887993385, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187851937887993385, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: Aqui estamos de nuevo
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187851937887993385, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: Escuche que hubo polemicas con las zapatillas...
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a0196055e75655488f583377356546b, type: 3}
 --- !u!1 &1604997088 stripped

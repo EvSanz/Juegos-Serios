@@ -449,6 +449,32 @@ PrefabInstance:
       propertyPath: m_Text
       value: AAAAAAAAAAAAAAAAAAAAAAA
       objectReference: {fileID: 0}
+    - target: {fileID: 9187851937887993385, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187851937887993385, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: 'Los ultimos dias han sido bastante complicados '
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187851937887993385, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: Por lo que he escuchado en las noticias, han descubierto una polemica
+        relacionada con Kanye
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187851937887993385, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: "A ver, lo segu\xEDa de cerca y apoye su campa\xF1a, pero..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9187851937887993385, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: No creo que pase nada, son imaginaciones mias
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a0196055e75655488f583377356546b, type: 3}
 --- !u!1 &1927489881
