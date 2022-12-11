@@ -28,7 +28,8 @@ public class SceneLoader : MonoBehaviour
     }
     private void Update()
     {
-        if (GameManager.GetInstance().getCurrentActions() == maxActions)
+        
+        if (GameManager.GetInstance().getCurrentActions() >= maxActions)
         {
             gameObject.SetActive(true);
         }

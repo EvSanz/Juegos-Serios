@@ -55,8 +55,6 @@ public class HandleLikes : MonoBehaviour
             }
         }
         
-        
-       
-        
     }
+    
 }

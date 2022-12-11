@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     public void LessFollowers(int lostFollowers)
     {
         contador -= lostFollowers;
-        seguidores -= lostFollowers;
+        //seguidores -= lostFollowers;
 
         if (contador <= 0)
             contador = 0;
@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
     public void AddFollowers(int newFollowers)
     {
         contador += newFollowers;
-        seguidores += newFollowers;
+        //seguidores += newFollowers;
     }
 
     public int GetPost() { return post; }
@@ -82,6 +82,7 @@ public class GameManager : MonoBehaviour
     public void SetLikeCelebrity()
     {
         likedCelebrity = true;
+       
     }
     public bool GetLikeCelebrity()
     {
