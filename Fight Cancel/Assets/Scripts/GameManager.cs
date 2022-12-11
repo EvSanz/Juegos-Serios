@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     
     //public static GameManager instance = null;
 
-    int seguidores = 100000;
+    int seguidores = 105786;
     int contador = 0; 
     int post = 0;
     bool likedCelebrity = false;
@@ -99,7 +99,7 @@ public class GameManager : MonoBehaviour
     public void addAction()
     {
         currentActions++;
-        //Debug.Log("+1 Accion");
+        Debug.Log("+1 Accion");
     }
 
     public int getCurrentActions()
