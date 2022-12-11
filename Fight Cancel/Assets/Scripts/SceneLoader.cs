@@ -14,7 +14,7 @@ public class SceneLoader : MonoBehaviour
         if (GameManager.GetInstance() != null)
         {
             LoadNextLevel();
-            Debug.Log("Se cambia de escena");
+           // Debug.Log("Se cambia de escena");
         }
     }
     public void LoadNextLevel()
@@ -28,7 +28,6 @@ public class SceneLoader : MonoBehaviour
     }
     private void Update()
     {
-        
         if (GameManager.GetInstance().getCurrentActions() >= maxActions)
         {
             gameObject.SetActive(true);

@@ -99,7 +99,7 @@ public class GameManager : MonoBehaviour
     public void addAction()
     {
         currentActions++;
-        Debug.Log("+1 Accion");
+        //Debug.Log("+1 Accion");
     }
 
     public int getCurrentActions()
