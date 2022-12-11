@@ -17,11 +17,15 @@ public class SceneLoader : MonoBehaviour
             Debug.Log("Se cambia de escena");
         }
     }
-    void LoadNextLevel()
+    public void LoadNextLevel()
     {
         GameManager.GetInstance().ChangeScene(sceneName);
     }
-
+    public void QuitGame()
+    {
+        UnityEditor.EditorApplication.isPlaying = false; //para el juego en el editor
+        Application.Quit(); //quita el juego en la build pero no se ve en el editor
+    }
     private void Update()
     {
         if (GameManager.GetInstance().getCurrentActions() == maxActions)
