@@ -1108,6 +1108,13 @@ PrefabInstance:
       propertyPath: maxActions
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5259523772099277743, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Tienes 5 notificaciones
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 5809414662575429150, guid: 4a0196055e75655488f583377356546b,
         type: 3}
       propertyPath: m_AnchorMax.y

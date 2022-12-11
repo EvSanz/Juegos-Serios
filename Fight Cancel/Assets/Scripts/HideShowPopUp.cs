@@ -15,20 +15,20 @@ public class HideShowPopUp : MonoBehaviour
 
     void Start()
     {
-        this.notifText.text = "Tienes " + numNotification + " notificaciones";
+        //this.notifText.text = "Tienes " + numNotification + " notificaciones";
 
-        if (GameManager.GetInstance() != null)
-        {
-            if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Dia2"))
-            {
-                showPopUp();
-            }
-            else
-            {
-                hidePopUp();
-            }
-        }
-        
+        //if (GameManager.GetInstance() != null)
+        //{
+        //    if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Dia2"))
+        //    {
+        //        showPopUp();
+        //    }
+        //    else
+        //    {
+        //        hidePopUp();
+        //    }
+        //}
+        showPopUp();
     }
 
     public void hidePopUp()

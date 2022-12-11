@@ -6,7 +6,7 @@ using TMPro;
 public class IntroDialogueController : MonoBehaviour
 {
     public TextMeshProUGUI dialogueText;
-    public GameObject pantalla; 
+    public GameObject pantalla, popUp=null; 
     public string[] sentences; 
     public float speed;
 
@@ -28,8 +28,11 @@ public class IntroDialogueController : MonoBehaviour
             StartCoroutine(WriteSentence());
         }
 
-        else
+        else {
             pantalla.SetActive(false);
+            if (popUp != null)
+                popUp.SetActive(true);
+        } 
     }
 
     IEnumerator WriteSentence()
@@ -42,5 +45,9 @@ public class IntroDialogueController : MonoBehaviour
 
         Index++;
         click = true; 
+    }
+    public void Activate()
+    {
+        pantalla.SetActive(true);
     }
 }

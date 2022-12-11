@@ -1000,6 +1000,13 @@ PrefabInstance:
       propertyPath: maxActions
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5259523772099277743, guid: 4a0196055e75655488f583377356546b,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Tienes 4 notificaciones
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 5463283539871697227, guid: 4a0196055e75655488f583377356546b,
         type: 3}
       propertyPath: m_Sprite
