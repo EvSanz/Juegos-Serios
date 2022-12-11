@@ -728,3 +728,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   like: {fileID: 2833657306866019094}
   dislike: {fileID: 2833657307176360648}
+  isCelebrity: 0
