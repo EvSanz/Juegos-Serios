@@ -1,17 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class SelectUser : MonoBehaviour
 {
     public Text userName;
     public Image profilePhoto;
-    void Start()
+   
+    public void setImage(Sprite img)
     {
-        UsersGenerator u = this.gameObject.GetComponentInParent<UsersGenerator>();
-        profilePhoto.sprite = u.profileImages[u.getIndex()];
-        userName.text = u.usersNames[u.getIndex()];
-        u.addIndex();
+        profilePhoto.sprite = img;
+    }
+
+    public void setName(string nme)
+    {
+        userName.text = nme;
     }
 }
