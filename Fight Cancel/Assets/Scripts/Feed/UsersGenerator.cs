@@ -17,6 +17,12 @@ public class UsersGenerator : MonoBehaviour
             users[i].GetComponent<SelectUser>().setName(usersNames[index]);
             addIndex();
         }
+
+        for (int i = 0; i < users.Length; i++)
+        {
+            if (users[i].GetComponent<UserMention>() != null)
+                users[i].GetComponent<UserMention>().AddMention();
+        }
     }
     public void addIndex()
     {

@@ -19,6 +19,9 @@ public class GameManager : MonoBehaviour
 
     float likes = 1, dislikes = 1;
 
+    string username;
+    Image userPhoto; 
+
     private void Awake()
     {
         if (instance == null)
@@ -39,6 +42,16 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         //LessFollowers(1);
+    }
+
+    public string GivePlayerName()
+    {
+        return username; 
+    }
+
+    public void SavePlayerName(string player)
+    {
+        username = player; 
     }
 
     public void LessFollowers(int lostFollowers)

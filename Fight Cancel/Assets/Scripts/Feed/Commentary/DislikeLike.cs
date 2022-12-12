@@ -11,6 +11,8 @@ public class DislikeLike : MonoBehaviour
     Image like, dislike;
     [SerializeField]
     Sprite likePressed, dislikePressed;
+    [SerializeField]
+    GameObject playerTalk;
     bool canClick = true;
 
     public void DislikeLikeClick()
@@ -21,32 +23,34 @@ public class DislikeLike : MonoBehaviour
             {
                 if (isDislike)
                 {
-
                     GameManager.GetInstance().LessFollowers(followers);
                     dislike.sprite = dislikePressed;
                     canClick = false;
                 }
+
                 else
                 {
-
                     GameManager.GetInstance().AddFollowers(followers);
                     like.sprite = likePressed;
                     canClick = false;
-
                 }
-  
             }
-            
+
+            else
+            {
+                if (playerTalk != null)
+                    playerTalk.SetActive(true);
+            }
         }
     }
+
     public bool canPress()
     {
-
         return canClick;
     }
+
     public void setPress(bool press)
     {
-
         canClick = press;
     }
 

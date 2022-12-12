@@ -36,6 +36,10 @@ public class Post : MonoBehaviour
     void DesactivarPaneles()
     {
         post.SetActive(true);
+
+        if (post.GetComponent<UserMention>() != null)
+            post.GetComponent<UserMention>().AddMention();
+
         panelOpciones.SetActive(false);
     }
 }

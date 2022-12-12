@@ -11,7 +11,8 @@ public class IntroDialogueController : MonoBehaviour
     public float speed;
 
     private int Index = 0;
-    private bool click = true; 
+    private bool click = true;
+    private bool reset = false; 
 
     void Update()
     {
@@ -28,10 +29,16 @@ public class IntroDialogueController : MonoBehaviour
             StartCoroutine(WriteSentence());
         }
 
-        else {
+        else if (Index == sentences.Length)
+        {
             pantalla.SetActive(false);
+
             if (popUp != null)
                 popUp.SetActive(true);
+
+            dialogueText.text = "";
+            reset = true;
+            Index = 0; 
         } 
     }
 
@@ -46,6 +53,7 @@ public class IntroDialogueController : MonoBehaviour
         Index++;
         click = true; 
     }
+
     public void Activate()
     {
         pantalla.SetActive(true);

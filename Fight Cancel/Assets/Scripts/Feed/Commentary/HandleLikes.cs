@@ -24,7 +24,7 @@ public class HandleLikes : MonoBehaviour
     {
         likeComp = like.GetComponentInChildren<DislikeLike>();
         dislikeComp = dislike.GetComponentInChildren<DislikeLike>();
-        gm= GameManager.GetInstance();
+        gm = GameManager.GetInstance();
 
         dia1 = SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Dia1");
 
@@ -33,6 +33,7 @@ public class HandleLikes : MonoBehaviour
             dislikeComp.setPress(false); 
         }
     }
+
     private void Update()
     {
         if (dia1 && isCelebrity) 
@@ -42,6 +43,7 @@ public class HandleLikes : MonoBehaviour
                 gm.SetLikeCelebrity();
             }
         }
+
         else
         {
             if (!likeComp.canPress())
@@ -51,10 +53,7 @@ public class HandleLikes : MonoBehaviour
             else if (!dislikeComp.canPress())
             {
                 likeComp.setPress(false);
-
             }
-        }
-        
-    }
-    
+        }    
+    }  
 }

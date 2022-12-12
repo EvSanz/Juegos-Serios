@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Publish : MonoBehaviour
 {
-    public GameObject[] options; 
+    public GameObject[] options;
+    public GameObject warning; 
 
     public void OpenOptionsPanel()
     {
@@ -17,7 +18,7 @@ public class Publish : MonoBehaviour
             }
 
             else
-                print("No puedes poner más comentarios"); 
+                warning.SetActive(true); 
         }   
     }
 }
