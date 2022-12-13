@@ -33,9 +33,9 @@ public class Post : MonoBehaviour
         GameManager.GetInstance().addAction();
     }
 
-    void DesactivarPaneles()
+    public void DesactivarPaneles()
     {
-        post.SetActive(true);
+       if(post!=null) post.SetActive(true);
 
         if (post.GetComponent<UserMention>() != null)
             post.GetComponent<UserMention>().AddMention();
