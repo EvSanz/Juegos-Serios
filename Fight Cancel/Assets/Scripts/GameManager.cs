@@ -88,7 +88,7 @@ public class GameManager : MonoBehaviour
     {
         post = 0; 
         seguidores = contador;
-        likedCelebrity = false;
+        //likedCelebrity = false;
         currentActions = 0;
         SceneManager.LoadScene(sceneName);
     }

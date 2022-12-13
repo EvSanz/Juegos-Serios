@@ -18,7 +18,7 @@ public class Publish : MonoBehaviour
             }
 
             else
-                warning.SetActive(true); 
+                if(warning!=null) warning.SetActive(true); 
         }   
     }
 }
