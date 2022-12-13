@@ -1487,7 +1487,7 @@ PrefabInstance:
     - target: {fileID: 387862069932164096, guid: 551300456148cc949ab4158c82c2f0e0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 387862069932164096, guid: 551300456148cc949ab4158c82c2f0e0,
         type: 3}
@@ -3696,7 +3696,7 @@ MonoBehaviour:
   gameObject: {fileID: 344120901686899475}
   playerTalk: {fileID: 0}
   sceneName: Dia4
-  maxActions: 3
+  maxActions: 2
 --- !u!1 &5621927963860491355
 GameObject:
   m_ObjectHideFlags: 0

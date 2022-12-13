@@ -26,7 +26,6 @@ public class HandleLikes : MonoBehaviour
         dislikeComp = dislike.GetComponentInChildren<DislikeLike>();
         gm = GameManager.GetInstance();
 
-        dia1 = SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Dia1");
 
         if (dia1 && isCelebrity) //si es el dia 1 y es una celebrity no puede le puede dar dislike
         {
@@ -36,11 +35,16 @@ public class HandleLikes : MonoBehaviour
 
     private void Update()
     {
-        if (dia1 && isCelebrity) 
+       
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Dia1") && isCelebrity) 
         {
             if (!likeComp.canPress())
             {
-                gm.SetLikeCelebrity();
+                if (!gm.GetLikeCelebrity())
+                {
+                    gm.addAction();
+                    gm.SetLikeCelebrity();
+                }
             }
         }
 

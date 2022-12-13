@@ -42,5 +42,6 @@ public class SceneLoader : MonoBehaviour
 
             exitActive = true; 
         }
+        //Debug.Log("Acciones actuales: "+GameManager.GetInstance().getCurrentActions());
     }
 }
