@@ -8562,6 +8562,7 @@ MonoBehaviour:
   like: {fileID: 2158108673267034218}
   dislike: {fileID: 2853040816944383273}
   isCelebrity: 0
+  dia1: 0
 --- !u!224 &3520948616492901698
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12603,6 +12604,11 @@ PrefabInstance:
         type: 3}
       propertyPath: followers
       value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627995690563712503, guid: ada557634f12fb348966f36025bf5a0d,
+        type: 3}
+      propertyPath: dia1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5627995690563712503, guid: ada557634f12fb348966f36025bf5a0d,
         type: 3}
