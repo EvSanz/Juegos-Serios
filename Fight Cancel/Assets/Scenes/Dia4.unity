@@ -2346,6 +2346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObject: {fileID: 344120901686899475}
+  playerTalk: {fileID: 0}
   sceneName: Dia5
   maxActions: 1
 --- !u!1 &5621927963860491355
@@ -3536,8 +3537,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: -156.06401}
-  m_SizeDelta: {x: 74.33876, y: 50.595818}
+  m_AnchoredPosition: {x: 285.04, y: -151.57}
+  m_SizeDelta: {x: 44.409454, y: 41.61515}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8543382493939503377
 MonoBehaviour:
@@ -3612,7 +3613,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d9639c5e82d37aa49a1cd4f4c134597f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5cf2757336009fe469d0c30470626647, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
