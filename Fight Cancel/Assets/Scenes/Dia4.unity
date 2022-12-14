@@ -1683,6 +1683,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8543382495320474635}
     m_Modifications:
+    - target: {fileID: 8359070875545964716, guid: 650968a7d9f890742ac7d9c6b4b1769c,
+        type: 3}
+      propertyPath: speed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8359070875545964716, guid: 650968a7d9f890742ac7d9c6b4b1769c,
+        type: 3}
+      propertyPath: sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8359070875545964716, guid: 650968a7d9f890742ac7d9c6b4b1769c,
+        type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: Ayer fue un dia un poco complicado
+      objectReference: {fileID: 0}
+    - target: {fileID: 8359070875545964716, guid: 650968a7d9f890742ac7d9c6b4b1769c,
+        type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: Espero que las cosas se hayan calmado un poco
+      objectReference: {fileID: 0}
+    - target: {fileID: 8359070875545964716, guid: 650968a7d9f890742ac7d9c6b4b1769c,
+        type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8359070875665631946, guid: 650968a7d9f890742ac7d9c6b4b1769c,
         type: 3}
       propertyPath: m_Name
@@ -4101,6 +4126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8543382494564765983}
   - component: {fileID: 8543382494564765953}
+  - component: {fileID: 8543382494564765984}
   m_Layer: 5
   m_Name: ProfilePanel
   m_TagString: Untagged
@@ -4130,6 +4156,19 @@ RectTransform:
   m_AnchoredPosition: {x: 87.89379, y: -119.57211}
   m_SizeDelta: {x: 187.25856, y: 239.14424}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8543382494564765984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8543382494564765982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31631864d3212194c9a9052313f7a336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  username: {fileID: 8543382495237876671}
 --- !u!1 &8543382494621805978
 GameObject:
   m_ObjectHideFlags: 0
