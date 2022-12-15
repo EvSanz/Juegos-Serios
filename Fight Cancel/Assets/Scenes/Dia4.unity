@@ -446,7 +446,7 @@ PrefabInstance:
     - target: {fileID: 387862069932164096, guid: 551300456148cc949ab4158c82c2f0e0,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 387862069932164096, guid: 551300456148cc949ab4158c82c2f0e0,
         type: 3}
@@ -536,7 +536,9 @@ PrefabInstance:
     - target: {fileID: 4741608928719329908, guid: 551300456148cc949ab4158c82c2f0e0,
         type: 3}
       propertyPath: m_Text
-      value: "Twetty le informa de que su verificado ser\xE1 retirado\n"
+      value: 'Twetty le informa de que su verificado ha sido retirado
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 4741608928719329908, guid: 551300456148cc949ab4158c82c2f0e0,
         type: 3}
@@ -602,6 +604,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Alpha
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208079822824904476, guid: 551300456148cc949ab4158c82c2f0e0,
+        type: 3}
+      propertyPath: especial
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7674868891446424787, guid: 551300456148cc949ab4158c82c2f0e0,
         type: 3}
@@ -1686,7 +1693,7 @@ PrefabInstance:
     - target: {fileID: 8359070875545964716, guid: 650968a7d9f890742ac7d9c6b4b1769c,
         type: 3}
       propertyPath: speed
-      value: 0.5
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 8359070875545964716, guid: 650968a7d9f890742ac7d9c6b4b1769c,
         type: 3}

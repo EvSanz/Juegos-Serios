@@ -12,6 +12,7 @@ public class HideShowPopUp : MonoBehaviour
     int numNotification;
     [SerializeField]
     Text notifText;
+    public bool especial;
 
     void Start()
     {
@@ -33,6 +34,7 @@ public class HideShowPopUp : MonoBehaviour
 
     public void hidePopUp()
     {
+        if (especial) GameManager.GetInstance().addAction();
         this.gameObject.SetActive(false);
     }
     public void showPopUp()
