@@ -2748,6 +2748,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4741608928719329908, guid: 551300456148cc949ab4158c82c2f0e0,
         type: 3}
+      propertyPath: m_Text
+      value: 'Tienes 6 notificaciones
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4741608928719329908, guid: 551300456148cc949ab4158c82c2f0e0,
+        type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 10
       objectReference: {fileID: 0}

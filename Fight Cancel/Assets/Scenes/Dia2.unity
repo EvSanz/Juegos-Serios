@@ -174,8 +174,6 @@ MonoBehaviour:
   panelImagen: {fileID: 2008670730}
   playerName: {fileID: 0}
   choosenName: {fileID: 0}
-  player: {fileID: 1901547622}
-  choosenImage: {fileID: 954792404}
   texto: 0
 --- !u!1 &77378667
 GameObject:
@@ -996,8 +994,6 @@ MonoBehaviour:
   panelImagen: {fileID: 2008670730}
   playerName: {fileID: 0}
   choosenName: {fileID: 0}
-  player: {fileID: 0}
-  choosenImage: {fileID: 0}
   texto: 0
 --- !u!1 &152339014
 GameObject:
@@ -1052,8 +1048,6 @@ MonoBehaviour:
   panelImagen: {fileID: 2008670730}
   playerName: {fileID: 0}
   choosenName: {fileID: 0}
-  player: {fileID: 1901547622}
-  choosenImage: {fileID: 302495388}
   texto: 0
 --- !u!1 &167113004
 GameObject:
@@ -2707,8 +2701,6 @@ MonoBehaviour:
   panelImagen: {fileID: 2008670730}
   playerName: {fileID: 0}
   choosenName: {fileID: 0}
-  player: {fileID: 0}
-  choosenImage: {fileID: 0}
   texto: 0
 --- !u!1 &500863477
 GameObject:
@@ -4137,8 +4129,6 @@ MonoBehaviour:
   panelImagen: {fileID: 2008670730}
   playerName: {fileID: 0}
   choosenName: {fileID: 0}
-  player: {fileID: 1901547622}
-  choosenImage: {fileID: 2127569424}
   texto: 0
 --- !u!1001 &727491333
 PrefabInstance:
@@ -4414,8 +4404,6 @@ MonoBehaviour:
   panelImagen: {fileID: 0}
   playerName: {fileID: 0}
   choosenName: {fileID: 0}
-  player: {fileID: 0}
-  choosenImage: {fileID: 0}
   texto: 0
 --- !u!1001 &746214940
 PrefabInstance:
@@ -5553,6 +5541,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   username: {fileID: 880308767}
+--- !u!1 &880308770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5721088477076454962, guid: 228be2f808fe0054c8435004088fddc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 880308764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &880308771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880308770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a08b96e70b6c2b4b888d31e31233842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &922531051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5916,6 +5922,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   username: {fileID: 922531054}
+--- !u!1 &922531058 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2833657306390195901, guid: ada557634f12fb348966f36025bf5a0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 922531051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &922531059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922531058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a08b96e70b6c2b4b888d31e31233842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &930755390
 GameObject:
   m_ObjectHideFlags: 0
@@ -7692,8 +7716,6 @@ MonoBehaviour:
   panelImagen: {fileID: 2008670730}
   playerName: {fileID: 0}
   choosenName: {fileID: 0}
-  player: {fileID: 0}
-  choosenImage: {fileID: 0}
   texto: 0
 --- !u!1 &1384227885
 GameObject:
@@ -7826,8 +7848,6 @@ MonoBehaviour:
   panelImagen: {fileID: 2008670730}
   playerName: {fileID: 0}
   choosenName: {fileID: 0}
-  player: {fileID: 1901547622}
-  choosenImage: {fileID: 551077427}
   texto: 0
 --- !u!1001 &1440870002
 PrefabInstance:
@@ -9082,8 +9102,6 @@ MonoBehaviour:
   panelImagen: {fileID: 2008670730}
   playerName: {fileID: 1340114602}
   choosenName: {fileID: 1268484096}
-  player: {fileID: 0}
-  choosenImage: {fileID: 0}
   texto: 0
 --- !u!1 &1545271153
 GameObject:
@@ -9623,8 +9641,6 @@ MonoBehaviour:
   panelImagen: {fileID: 2008670730}
   playerName: {fileID: 0}
   choosenName: {fileID: 0}
-  player: {fileID: 1901547622}
-  choosenImage: {fileID: 1955095787}
   texto: 0
 --- !u!1001 &1612585740
 PrefabInstance:
@@ -11473,8 +11489,6 @@ MonoBehaviour:
   panelImagen: {fileID: 0}
   playerName: {fileID: 0}
   choosenName: {fileID: 0}
-  player: {fileID: 0}
-  choosenImage: {fileID: 0}
   texto: 1
 --- !u!1001 &2077805507
 PrefabInstance:
@@ -11971,8 +11985,6 @@ MonoBehaviour:
   panelImagen: {fileID: 0}
   playerName: {fileID: 1340114602}
   choosenName: {fileID: 1268484096}
-  player: {fileID: 0}
-  choosenImage: {fileID: 0}
   texto: 0
 --- !u!1 &2127569422
 GameObject:
