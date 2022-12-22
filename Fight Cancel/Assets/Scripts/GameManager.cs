@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     int seguidores = 105786;
     int contador = 0; 
-    int post = 0;
+    int post = 0, day=10;
     bool likedCelebrity = false, blacks=false;
     int currentActions = 0;
 
@@ -88,6 +88,7 @@ public class GameManager : MonoBehaviour
     {
         post = 0; 
         seguidores = contador;
+        day++;
         //likedCelebrity = false;
         currentActions = 0;
         SceneManager.LoadScene(sceneName);
@@ -127,5 +128,9 @@ public class GameManager : MonoBehaviour
     public bool isBlack()
     {
         return blacks;
+    }
+    public int getDay()
+    {
+        return day;
     }
 }

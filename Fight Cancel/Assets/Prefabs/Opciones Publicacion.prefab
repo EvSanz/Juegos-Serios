@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7771533854302097641}
   - component: {fileID: 7393884476034790974}
   - component: {fileID: 8780206195213724010}
+  - component: {fileID: 481741000688390860}
   m_Layer: 5
   m_Name: OpcionDialogo
   m_TagString: Untagged
@@ -131,6 +132,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &481741000688390860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374866294666712490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2a02457bc06694d8c0c5ac97a8fb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &804363940582188536
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,6 +311,7 @@ GameObject:
   - component: {fileID: 3037550470988027828}
   - component: {fileID: 6328864104857127930}
   - component: {fileID: 7372344906039288581}
+  - component: {fileID: 5607183672607230754}
   m_Layer: 5
   m_Name: OpcionDialogo (1)
   m_TagString: Untagged
@@ -417,6 +431,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5607183672607230754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427479025200973592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2a02457bc06694d8c0c5ac97a8fb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3400656978513203574
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,6 +611,7 @@ GameObject:
   - component: {fileID: 5587030836489917406}
   - component: {fileID: 6250292125433550628}
   - component: {fileID: 6373422583320033072}
+  - component: {fileID: 7332847102987214885}
   m_Layer: 5
   m_Name: OpcionDialogo (2)
   m_TagString: Untagged
@@ -704,6 +731,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7332847102987214885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4407264537482784075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2a02457bc06694d8c0c5ac97a8fb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4717959702463008555
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,8 +793,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   post: {fileID: 0}
   panelOpciones: {fileID: 976142204619377678}
-  postTexto: {fileID: 4992343025251440378}
   comentarioTexto: {fileID: 0}
+  postImage: {fileID: 0}
+  comentarioImage: {fileID: 0}
+  texto: 
+  likes: 0
+  dislikes: 0
 --- !u!1 &6754732361625018605
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,8 +849,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   post: {fileID: 0}
   panelOpciones: {fileID: 976142204619377678}
-  postTexto: {fileID: 485786018550756727}
   comentarioTexto: {fileID: 0}
+  postImage: {fileID: 0}
+  comentarioImage: {fileID: 0}
+  texto: 
+  likes: 0
+  dislikes: 0
 --- !u!1 &8400599732093562191
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,5 +905,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   post: {fileID: 0}
   panelOpciones: {fileID: 976142204619377678}
-  postTexto: {fileID: 7746312239297479252}
   comentarioTexto: {fileID: 0}
+  postImage: {fileID: 0}
+  comentarioImage: {fileID: 0}
+  texto: 
+  likes: 0
+  dislikes: 0

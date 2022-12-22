@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: 321581923}
   - component: {fileID: 321581922}
   - component: {fileID: 321581921}
+  - component: {fileID: 321581924}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -286,6 +287,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321581919}
   m_CullTransparentMesh: 0
+--- !u!114 &321581924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321581919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2a02457bc06694d8c0c5ac97a8fb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &494847779
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,6 +732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObject: {fileID: 197960285}
+  playerTalk: {fileID: 0}
   sceneName: Dia1
   maxActions: 0
 --- !u!1 &1580383168
@@ -733,6 +747,7 @@ GameObject:
   - component: {fileID: 1580383172}
   - component: {fileID: 1580383171}
   - component: {fileID: 1580383170}
+  - component: {fileID: 1580383173}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -851,6 +866,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580383168}
   m_CullTransparentMesh: 0
+--- !u!114 &1580383173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580383168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2a02457bc06694d8c0c5ac97a8fb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1584568564
 GameObject:
   m_ObjectHideFlags: 0

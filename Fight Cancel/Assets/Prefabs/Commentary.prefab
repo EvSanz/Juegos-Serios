@@ -242,6 +242,7 @@ GameObject:
   - component: {fileID: 2833657306866019091}
   - component: {fileID: 2833657306866019090}
   - component: {fileID: 2833657306866019089}
+  - component: {fileID: 6039998537070194834}
   m_Layer: 5
   m_Name: Like
   m_TagString: Untagged
@@ -360,6 +361,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6039998537070194834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2833657306866019094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2a02457bc06694d8c0c5ac97a8fb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2833657307130473261
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,6 +427,7 @@ MonoBehaviour:
   dislike: {fileID: 2833657307176360628}
   likePressed: {fileID: 21300000, guid: 6a6cdd4b8ec2d87429af24fdd934c670, type: 3}
   dislikePressed: {fileID: 21300000, guid: de9c6c156265c244ba316b99ba44a6ae, type: 3}
+  playerTalk: {fileID: 0}
 --- !u!1 &2833657307176360648
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +440,7 @@ GameObject:
   - component: {fileID: 2833657307176360629}
   - component: {fileID: 2833657307176360628}
   - component: {fileID: 2833657307176360651}
+  - component: {fileID: 2835905871330581173}
   m_Layer: 5
   m_Name: Dislike
   m_TagString: Untagged
@@ -544,6 +559,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2835905871330581173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2833657307176360648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2a02457bc06694d8c0c5ac97a8fb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2833657307845999030
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,6 +703,7 @@ MonoBehaviour:
   dislike: {fileID: 2833657307176360628}
   likePressed: {fileID: 21300000, guid: 6a6cdd4b8ec2d87429af24fdd934c670, type: 3}
   dislikePressed: {fileID: 21300000, guid: de9c6c156265c244ba316b99ba44a6ae, type: 3}
+  playerTalk: {fileID: 0}
 --- !u!1 &8086163329187409065
 GameObject:
   m_ObjectHideFlags: 0

@@ -51,13 +51,14 @@ public class UIManager : MonoBehaviour
             hora.text = DateFetcher.Hour.ToString() + " : " + DateFetcher.Minute.ToString();
 
         //ESCRIBIR FECHA
-        if (DateFetcher.Day < 10 && DateFetcher.Month < 10)
-            fecha.text = "0" + DateFetcher.Day.ToString() + " / 0" + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
-        else if (DateFetcher.Day < 10)
-            fecha.text = "0" + DateFetcher.Day.ToString() + " / " + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
+        int day = GameManager.GetInstance().getDay();
+        if (day < 10 && DateFetcher.Month < 10)
+            fecha.text = "0" + day.ToString() + " / 0" + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
+        else if (day < 10)
+            fecha.text = "0" + day.ToString() + " / " + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
         else if (DateFetcher.Month < 10)
-            fecha.text = DateFetcher.Day.ToString() + " / 0" + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
+            fecha.text = day.ToString() + " / 0" + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
         else
-            fecha.text = DateFetcher.Day.ToString() + " / " + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
+            fecha.text = day.ToString() + " / " + DateFetcher.Month.ToString() + " / " + DateFetcher.Year.ToString();
     }
 }
