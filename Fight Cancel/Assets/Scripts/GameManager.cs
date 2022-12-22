@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
     private UIManager UIManager;
-    
+
     //public static GameManager instance = null;
 
     int seguidores = 105786;
@@ -20,7 +20,8 @@ public class GameManager : MonoBehaviour
     float likes = 1, dislikes = 1;
 
     string username;
-    Image userPhoto; 
+    Sprite userPhoto = null;
+    // Image userPhoto; 
 
     private void Awake()
     {
@@ -132,5 +133,15 @@ public class GameManager : MonoBehaviour
     public int getDay()
     {
         return day;
+    }
+
+    public void setUserImage(Sprite s)
+    {
+        userPhoto = s;
+    }
+
+    public Sprite getUserImgae()
+    {
+        return userPhoto;
     }
 }

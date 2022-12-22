@@ -7,7 +7,6 @@ public class PlayerAspectOptions : MonoBehaviour
 {
     public GameObject panel, panelTexto, panelImagen;
     public Text playerName, choosenName;
-    public Image player, choosenImage;
     public bool texto;
 
     public void OpenPanel()
@@ -24,14 +23,6 @@ public class PlayerAspectOptions : MonoBehaviour
 
         panel.SetActive(false);
     }
-
-    public void ChooseImageProfile()
-    {
-        player.sprite = choosenImage.sprite;
-        //GameManager.GetInstance().SavePlayerImage(player);
-        panelImagen.SetActive(false);
-    }
-
     public void ChooseTextProfile()
     {
         playerName.text = choosenName.text;
