@@ -20,6 +20,11 @@ public class Post : MonoBehaviour
         GameManager.GetInstance().addMyLikes(likes);
         GameManager.GetInstance().addMyDislikes(dislikes);
         GameManager.GetInstance().addAction();
+
+        if (comentarioTexto.text == "Me gustan más las negras") GameManager.GetInstance().setBlacks(true);
+        else GameManager.GetInstance().setBlacks(false);
+
+        Debug.Log(GameManager.GetInstance().isBlack());
     }
 
     public void PostImage()

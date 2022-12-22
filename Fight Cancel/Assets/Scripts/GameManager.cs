@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     int seguidores = 105786;
     int contador = 0; 
     int post = 0;
-    bool likedCelebrity = false;
+    bool likedCelebrity = false, blacks=false;
     int currentActions = 0;
 
     float likes = 1, dislikes = 1;
@@ -118,5 +118,14 @@ public class GameManager : MonoBehaviour
     public int getCurrentActions()
     {
         return currentActions;
+    }
+
+    public void setBlacks(bool b)
+    {
+        blacks = b;
+    }
+    public bool isBlack()
+    {
+        return blacks;
     }
 }
