@@ -261,9 +261,19 @@ PrefabInstance:
       objectReference: {fileID: 922531055}
     - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
+      propertyPath: likes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
       propertyPath: texto
       value: "Muy graciosos los comentarios de los haters sobre las zapatillas \xBFQu\xE9
         hab\xE9is desayunado hoy, un payaso?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
+      propertyPath: dislikes
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
@@ -399,6 +409,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2240685950774365534, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
+      propertyPath: dislikes
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2240685950774365534, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
       propertyPath: comentarioTexto
       value: 
       objectReference: {fileID: 922531053}
@@ -429,10 +444,20 @@ PrefabInstance:
       objectReference: {fileID: 922531055}
     - target: {fileID: 2392904410095796109, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
+      propertyPath: likes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392904410095796109, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
       propertyPath: texto
       value: "He visto varias reacciones negativas a mi comentario sobre las zapatillas.
         Yo solo quer\xEDa compartir mi opini\xF3n. Parece que hoy en d\xEDa ya no
         se puede comentar nada sin recibir cr\xEDticas negativas"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392904410095796109, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
+      propertyPath: dislikes
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2392904410095796109, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
@@ -4524,6 +4549,16 @@ PrefabInstance:
       objectReference: {fileID: 880308768}
     - target: {fileID: 814621234954415425, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
         type: 3}
+      propertyPath: likes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 814621234954415425, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
+        type: 3}
+      propertyPath: dislikes
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 814621234954415425, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
+        type: 3}
       propertyPath: postImage
       value: 
       objectReference: {fileID: 746214943}
@@ -4600,6 +4635,16 @@ PrefabInstance:
       objectReference: {fileID: 880308768}
     - target: {fileID: 3860945979290574320, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
         type: 3}
+      propertyPath: likes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3860945979290574320, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
+        type: 3}
+      propertyPath: dislikes
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3860945979290574320, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
+        type: 3}
       propertyPath: postImage
       value: 
       objectReference: {fileID: 746214944}
@@ -4613,6 +4658,16 @@ PrefabInstance:
       propertyPath: post
       value: 
       objectReference: {fileID: 880308768}
+    - target: {fileID: 4401031475095066873, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
+        type: 3}
+      propertyPath: likes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401031475095066873, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
+        type: 3}
+      propertyPath: dislikes
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4401031475095066873, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
         type: 3}
       propertyPath: postImage

@@ -4825,7 +4825,7 @@ MonoBehaviour:
   texto: "Pido perd\xF3n por lo que dije y lo que se pudo interpretar. No conoc\xEDa
     las intenciones de la marca ni lo que hac\xEDan en la sombra. No se me dijo nada"
   likes: 0
-  dislikes: 0
+  dislikes: 5
 --- !u!1 &5621927963860491355
 GameObject:
   m_ObjectHideFlags: 0
@@ -5678,7 +5678,7 @@ MonoBehaviour:
   comentarioImage: {fileID: 0}
   texto: 'Yo no tengo nada que ver con Celebrity o la marca con la que colabora '
   likes: 0
-  dislikes: 0
+  dislikes: 6
 --- !u!1 &6143560914558154307
 GameObject:
   m_ObjectHideFlags: 0
@@ -6100,7 +6100,7 @@ MonoBehaviour:
   texto: Estoy de acuerdo con vosotros, lo que hicieron Celebrity y Belenciaga no
     estuvo bien y espero que pidan disculpas
   likes: 0
-  dislikes: 0
+  dislikes: 4
 --- !u!224 &8426380116214639614
 RectTransform:
   m_ObjectHideFlags: 0

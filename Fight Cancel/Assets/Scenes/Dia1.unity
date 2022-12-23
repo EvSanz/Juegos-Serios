@@ -649,8 +649,18 @@ PrefabInstance:
       objectReference: {fileID: 1845742246}
     - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
+      propertyPath: likes
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
       propertyPath: texto
       value: "Me gustan m\xE1s las negras"
+      objectReference: {fileID: 0}
+    - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
+      propertyPath: dislikes
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
@@ -794,8 +804,18 @@ PrefabInstance:
       objectReference: {fileID: 1845742246}
     - target: {fileID: 2240685950774365534, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
+      propertyPath: likes
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2240685950774365534, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
       propertyPath: texto
       value: "Me gustan m\xE1s las blancas"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2240685950774365534, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
+      propertyPath: dislikes
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2240685950774365534, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
@@ -9539,6 +9559,16 @@ PrefabInstance:
       objectReference: {fileID: 1413148452}
     - target: {fileID: 3860945979290574320, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
         type: 3}
+      propertyPath: likes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3860945979290574320, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
+        type: 3}
+      propertyPath: dislikes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3860945979290574320, guid: 0c9a5c0009cbbde499c9ed34125b02e1,
+        type: 3}
       propertyPath: postImage
       value: 
       objectReference: {fileID: 1838298453}
@@ -10243,9 +10273,19 @@ PrefabInstance:
       objectReference: {fileID: 164863274}
     - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
+      propertyPath: likes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
       propertyPath: texto
       value: "Que ganas de que llegue mi pedido de la nueva colecci\xF3n de Wayne
         Kest con Belenciaga"
+      objectReference: {fileID: 0}
+    - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
+      propertyPath: dislikes
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 549821149079002877, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
@@ -10374,8 +10414,18 @@ PrefabInstance:
       objectReference: {fileID: 164863274}
     - target: {fileID: 2240685950774365534, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
+      propertyPath: likes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2240685950774365534, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
       propertyPath: texto
       value: "Me alegro mucho por Wayne Kest y su nueva colecci\xF3n con Belenciaga"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2240685950774365534, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
+      propertyPath: dislikes
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2240685950774365534, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
@@ -10409,9 +10459,19 @@ PrefabInstance:
       objectReference: {fileID: 164863274}
     - target: {fileID: 2392904410095796109, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
+      propertyPath: likes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392904410095796109, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
       propertyPath: texto
       value: "Menos mal que hice mi pedido de la nueva colecci\xF3n de Wayne Kest
         a tiempo"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392904410095796109, guid: 8f0f372ab8c216148a8c96fd69dd861f,
+        type: 3}
+      propertyPath: dislikes
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2392904410095796109, guid: 8f0f372ab8c216148a8c96fd69dd861f,
         type: 3}
@@ -13175,6 +13235,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -14.333
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833657307176360651, guid: ada557634f12fb348966f36025bf5a0d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2833657307845999030, guid: ada557634f12fb348966f36025bf5a0d,
         type: 3}
