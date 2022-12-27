@@ -7731,10 +7731,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0182ef45e0900b8428c03c4bbe650cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followers: {fileID: 0}
+  followers: {fileID: 322600124}
   hora: {fileID: 8543382494273092651}
   fecha: {fileID: 8543382494621805980}
-  slider: {fileID: 0}
+  slider: {fileID: 1733909428}
 --- !u!114 &8543382494249772752
 MonoBehaviour:
   m_ObjectHideFlags: 0
