@@ -6857,7 +6857,7 @@ MonoBehaviour:
   pantalla: {fileID: 9187851936710192016}
   popUp: {fileID: 0}
   sentences:
-  - "Estos d\xEDas se me est\xE1n haciendo un poco cuesta arriba..."
+  - "Estos d\xEDas se me est\xE1n haciendo cuesta arriba..."
   - Siento que haga lo que haga no hay forma de salir de esta
   - "No s\xE9 si esto es bueno para mi"
   speed: 0.05

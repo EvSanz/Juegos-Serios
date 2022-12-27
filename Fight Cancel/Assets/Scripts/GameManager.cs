@@ -39,7 +39,19 @@ public class GameManager : MonoBehaviour
     {
         contador = seguidores; 
     }
+    public void restartGame()
+    {
+        seguidores = 105786;
+        contador = seguidores;
+        post = 0;
+        day = 10;
+        likedCelebrity = false;
+        blacks = false;
+        currentActions = 0;
+        likes = 1;
+        dislikes = 1;
 
+    }
     private void Update()
     {
         //LessFollowers(1);
@@ -87,11 +99,19 @@ public class GameManager : MonoBehaviour
     }
     public void ChangeScene(string sceneName)
     {
-        post = 0; 
-        seguidores = contador;
-        day++;
-        //likedCelebrity = false;
-        currentActions = 0;
+        if (sceneName == "Menu")
+        {
+            restartGame();
+        }
+        else
+        {
+            post = 0;
+            seguidores = contador;
+            day++;
+            //likedCelebrity = false;
+            currentActions = 0;
+        }
+        
         SceneManager.LoadScene(sceneName);
     }
     public void SetLikeCelebrity()
