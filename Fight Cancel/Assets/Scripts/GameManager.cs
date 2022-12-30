@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     private UIManager UIManager;
 
     //public static GameManager instance = null;
+    bool GameIsPaused = false, ChangedScene=false;
 
     int seguidores = 105786;
     int contador = 0; 
@@ -37,7 +38,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        contador = seguidores; 
+        contador = seguidores;
+        GameIsPaused = false;
     }
     public void restartGame()
     {
@@ -50,7 +52,8 @@ public class GameManager : MonoBehaviour
         currentActions = 0;
         likes = 1;
         dislikes = 1;
-
+        GameIsPaused = false;
+        Time.timeScale = 1f;
     }
     private void Update()
     {
@@ -110,8 +113,9 @@ public class GameManager : MonoBehaviour
             day++;
             //likedCelebrity = false;
             currentActions = 0;
+            
         }
-        
+        GameIsPaused = false;
         SceneManager.LoadScene(sceneName);
     }
     public void SetLikeCelebrity()
@@ -164,4 +168,14 @@ public class GameManager : MonoBehaviour
     {
         return userPhoto;
     }
+ 
+    public bool GetPaused()
+    {
+        return GameIsPaused;
+    }
+    public void setPaused(bool pausedState)
+    {
+        GameIsPaused = pausedState;
+    }
+    
 }
