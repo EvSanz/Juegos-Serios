@@ -16,7 +16,6 @@ public class SceneLoader : MonoBehaviour
         if (GameManager.GetInstance() != null)
         {
             LoadNextLevel();
-           // Debug.Log("Se cambia de escena");
         }
     }
 
