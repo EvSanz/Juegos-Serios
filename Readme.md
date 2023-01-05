@@ -76,9 +76,9 @@ Debido a que es un juego de historia lineal, los días no pasarán hasta que el 
 
 ## 8. Estética: 
 
--Colores: Este juego posee una paleta de colores pasteles en la que domina el verde menta, color principal de la red social del juego. Además, los elementos interactuables tendrán una serie de colores vivos, que permitan que destaquen.
+**Colores:** Este juego posee una paleta de colores pasteles en la que domina el verde menta, color principal de la red social del juego. Además, los elementos interactuables tendrán una serie de colores vivos, que permitan que destaquen.
 
--Temática: El jugador pretende incrementar su fama como influencer por lo que la historia se desarrolla en la web, concretamente en una red social basada en Twitter llamada Twetty. Por ello el escenario es la pantalla del ordenador del jugador. El cambio de día se representará cerrando sesión y apagando el ordenador.
+**Temática:** El jugador pretende incrementar su fama como influencer por lo que la historia se desarrolla en la web, concretamente en una red social basada en Twitter llamada Twetty. Por ello el escenario es la pantalla del ordenador del jugador. El cambio de día se representará cerrando sesión y apagando el ordenador.
 
 ## 9. Contenido: 
 
@@ -140,42 +140,56 @@ Durante este día, el jugador:
 
 **Dia 3:**
 
+Habrá 6 comentarios en el feed: 1 de la cadena de noticias CBB, 2 de odio dirigidos hacia Wayne Kest y al jugador, 1 foto satírica y 1 del fan:
+
+- CBB habla sobre el escándalo de Wayne Kest.
+- Comentarios simples, empezando la gente a bloquear y cancelar al jugador por haber estado del lado de la celebridad.
+- Una imagen editada para burlarse del jugador y la celebridad. 
+- El fan pide paciencia para que el jugador se explique
+
 Durante este día:
 
-- La gente comienza a cancelar al jugador por responder/dar like a una publicación polémica de una celebrity.
-- El jugador postea una disculpa respecto al hecho anterior
-- El post escrito del primer día es editado por algún usuario
-- Al final del día recibe el primer aviso de twetty sobre que su verificado será retirado
+- El jugador postea una disculpa respecto al hecho anterior a elegir entre:
+  - “Yo no tengo nada que ver con Wayne Kest o la marca con la que colabora”
+  - “Pido perdón por lo que dije y lo que se pudo interpretar. No conocía las intenciones de la marca ni lo que hacían en la sombra. No se me dijo nada”
+  - “Estoy de acuerdo con vosotros, lo que hicieron Wayne Kest y Belenciaga no estuvo bien y espero que pidan disculpas”
+- Al final del día recibe el primer aviso de Twetty sobre que su verificado será retirado
+
 
 **Dia 4:**
 
-Durante este día:
+Habrá 3 comentarios de odio en el feed: 2 de usuarios, 1 imagen:
+- Se ríen de la disculpa del jugador del día anterior
+- Imagen que hace referencia a la disculpa:
 
-- Recibe un meme sobre la disculpa que presentó el día anterior
-- Algunas personas comienzan a bloquearlo
-- Recibe el segundo aviso de la red social twetty sobre que su verificado será retirado
-- Al final del día el verificado será retirado
+![Dia4](ReadmeImages/dia33.JPG)
+
+Durante este día, el jugador:
+- Empezará a ser bloqueado por los usuarios
+- Recibe un aviso de Twetty sobre el estado de su símbolo de verificado, el cual será retirado
+- El jugador no podrá postear nada, debido a que no se siente con fuerzas para ello.
+
 
 **Dia 5:**
 
-El dia comienza con la pantalla del ordenador en negro y el jugador tiene opción de elegir entre las siguientes opciones:
+El dia comienza con la pantalla del ordenador en negro. A continuación se inicia un monólogo tras el cual, aparecerá la pantalla de inicio y el jugador tendrá que decidir si: 
 
-- Eliminar/suspender su cuenta: su cuenta es suspendida
-- Continuar con el juego: la red social suspende su cuenta
+- Eliminar su cuenta, siendo esta suspendida.
+- Continuar en la red social, siendo su cuenta bloqueada por la red social. 
 
-En ambos casos el juego acabará con que la cuenta ha sido suspendida.
+En ambos casos, el juego terminará con el jugador perdiendo frente al proceso de cancelación.
 
 ### 9.3. Personajes: 
 
-- **Protagonista:** Es el personaje que maneja el jugador, siendo un influencer que, tras una serie de sucesos, es cancelado en las redes sociales. Su objetivo es no perder su popularidad y arreglar los problemas que lo han llevado a esa situación.
-- **Celebrity:** Persona de gran influencia que realiza acciones bastante polémicas. La reacción del protagonista a algunas de sus publicaciones repercutirán negativamente sobre su popularidad.
-- **Fan:** Esta persona empieza a apoyarlo a tope pero su intensidad va bajando gradualmente hasta desaparecer. Primer día: apoya al protagonista a tope. Segundo día: sigue con el/ella. Tercer día: duda. Cuarto día: se ven indicios de abandonar al protagonista. Quinto día: no está.
-- **Hater:** Hace publicaciones negativas y tergiversa las publicaciones del protagonista. Se convierte en el elemento de cancelación del protagonista si el jugador ha conseguido superar los eventos del manager y el compañer@ influencer. 
-- **Usuarios aleatorios:** Son 5 personas que interactúan de forma aleatoria con la página, haciendo publicaciones y reaccionando a los eventos del juego. 
+-**Protagonista:** Es el personaje que maneja el jugador, siendo un influencer que, tras una serie de sucesos, es cancelado en las redes sociales. Su objetivo es no perder su popularidad y arreglar los problemas que lo han llevado a esa situación.
+- **Wayne Kest:** Una celebridad que realiza acciones bastante polémicas. La reacción del protagonista a algunas de sus publicaciones afectarán de forma negativa a su popularidad.
+- **Fan:** Esta persona empieza apoyando al jugador, pero su intensidad y confianza irán disminuyendo conforme vayan avanzando los días. 
+- **Hater:** Hace publicaciones negativas y tergiversa las publicaciones del protagonista. 
+- **Personas anónimas de Internet:** Varios usuarios aleatorios que reaccionan a los comentarios del jugador, además de poner sus propios comentarios.
 
 ## 10. Referencias:
 
 - Get Bad News (Videojuego) 
 - Simulacra (Videojuego)
-- Twitter (Red social - Estética)
+- Twitter (Red social - Estética y nombre)
 - Instagram (Red social - Estética)
