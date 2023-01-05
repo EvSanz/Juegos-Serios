@@ -64,19 +64,21 @@ Contamos con un menú principal de juego, además de un menú de pausa.
 
 **Menú de pausa:** Permite continuar la partida, volver al menú principal o salir del juego. 
 
+**Interfaz:** A la izquierda muestra el "perfil" del jugador con su imagen, número de seguidores y la proporción de likes/dislikes que tiene. La mayor parte de la interfaz la ocupa el "feed" que muestra comentarios de otros usuarios, permite hacer publicaciones etc.
+
+![Interfaz](ReadmeImages/interfaz.png)
+
 ## 7. Dinámica: 
 
-El objetivo de Fight Cancel consiste en mantener y aumentar tu fama como influencer evitando durante la mayor cantidad de tiempo posible la cancelación, tomando decisiones que puedan disminuir la perspectiva negativa del público general. Esta se verá reflejada mediante el incremento o disminución de seguidores y likes, o la llegada de comentarios negativos. 
+El objetivo de Fight Cancel consiste en evitar ser víctima del proceso de cancelación, tomando las decisiones que crea mejores para disminuir la opinión negativa del público general, ya sea haciendo publicaciones o dando al like o dislike. Esto se verá reflejado mediante el incremento o disminución de seguidores o la llegada de comentarios negativos, cada vez más abundantes. 
 
-Una vez tomadas las decisiones, no se podrá volver atrás. Al existir diferentes formas de avanzar a través de la historia,se trata de un juego rejugable.
+Debido a que es un juego de historia lineal, los días no pasarán hasta que el jugador haga las acciones predeterminadas para ese día. Las decisiones tomadas tampoco afectarán al final del juego, ya que el personaje llegará a un punto donde tendrá que decidir si abandonar la red social o no, a pesar de haber sido cancelado por la mayor parte de los usuarios. 
 
 ## 8. Estética: 
 
-### 8.1. Colores:
-Este juego posee una paleta de colores pasteles en la que domina el verde menta, color principal de la red social del juego. Aquellos elementos con los que se pueda interactuar al pasar el ratón por encima adoptarán un color más vivo. 
+-Colores: Este juego posee una paleta de colores pasteles en la que domina el verde menta, color principal de la red social del juego. Además, los elementos interactuables tendrán una serie de colores vivos, que permitan que destaquen.
 
-### 8.2. Temática:
-El jugador pretende incrementar su fama como influencer por lo que la historia se desarrolla en la web, concretamente en una red social basada en twitter llamada twetty. Por ello el escenario es la pantalla del ordenador del jugador. El cambio de día se representará cerrando sesión y apagando el ordenador.
+-Temática: El jugador pretende incrementar su fama como influencer por lo que la historia se desarrolla en la web, concretamente en una red social basada en Twitter llamada Twetty. Por ello el escenario es la pantalla del ordenador del jugador. El cambio de día se representará cerrando sesión y apagando el ordenador.
 
 ## 9. Contenido: 
 
@@ -84,19 +86,31 @@ La toma de decisiones no estará limitada a un tiempo concreto, pero se espera q
 
 ### 9.1. Historia: 
 
-El jugador encarna a un/a adolescente que pretende aumentar su fama como influencer. En el proceso tomará una serie de malas decisiones en las redes sociales que provocarán que pueda ser cancelado por el público general. El objetivo del jugador será evitar ser cancelado para aumentar el número de seguidores, mientras sufre las consecuencias de las decisiones que ha tomado y va tomando. 
-
+El jugador encarna a un/a adolescente que pretende aumentar su fama como influencer. En el proceso tomará una serie de malas decisiones en Twetty, que provocarán el inicio de su proceso de cancelación. 
+El objetivo del jugador será intentar evitar ser cancelado, mientras sufre las consecuencias de sus decisiones, tanto pasadas como presentes. 
+El juego transcurre durante un periodo de 5 días y según van pasando, el jugador tendrá cada vez más dificultades para mantener su imagen intacta.
+ 
 ### 9.2. Niveles: 
 
-Solo hay un nivel en todo el juego dividido en varios “días”, debido a que es una aventura gráfica lineal, donde la mayor dificultad reside en la toma ocasional de decisiones. Estas decisiones son las que generan las fases descritas a continuación:
+Solo hay un nivel en todo el juego dividido en varios “días”, debido a que es una aventura gráfica lineal, donde la mayor dificultad reside en la toma ocasional de decisiones. 
+
+Las decisiones de cada día están indicadas a continuación: 
 
 **Dia 1:**
 
-Durante este día el jugador:
+Habrá 4 comentarios en el feed: 3 aleatorios y 1 de Wayne Kest (ver en el apartado 9.3)
 
-- Dará like a un post de una celebrity (esto afectará en el Día 3 cuando se descubra nueva información negativa sobre esa celebridad)
-- Publicará algunos memes banales
-- Publicará un post escrito (será manipulado en el Día 3)
+Durante este día, el jugador:
+- Debe dar like al post de Wayne Kest (esto afectará en el Día 3, cuando se descubra nueva información negativa sobre esa celebridad).
+- Postear un comentario, teniendo que elegir entre:
+  - “Que ganas de que llegue mi pedido de la nueva colección de Wayne Kest con Belenciaga”
+  - “Me alegro mucho por Wayne Kest y su nueva colección con Belenciaga”
+  - “Menos mal que hice mi pedido de la nueva colección de Wayne Kest a tiempo”
+- Publicar un meme, pudiendo elegir entre 3:
+- Publicar un comentario como respuesta a uno de sus seguidores sobre unas zapatillas (este comentario será utilizado durante el Día 2):
+  - “Me gustan más las negras”
+  - “Me gustan más las blancas”
+
 
 **Dia 2:**
 
