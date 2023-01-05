@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 127
+  controlID: 58
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,8 +268,8 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 731
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -348,18 +348,18 @@ MonoBehaviour:
       y: 21
       width: 939
       height: 418
-    m_Scale: {x: 1.3337268, y: 1.3337268}
-    m_Translation: {x: 469.5, y: 209}
+    m_Scale: {x: 1.3337269, y: 1.3337269}
+    m_Translation: {x: 469.5, y: 208.99998}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -352.02112
-      y: -156.70377
-      width: 704.04224
-      height: 313.40753
+      x: -352.0211
+      y: -156.70374
+      width: 704.0422
+      height: 313.4075
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1173.75, y: 548.75}
@@ -397,9 +397,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9e3d0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 96adffff30aeffff16b0ffffccb1ffff8cb5ffff06b9ffffacb9ffff92bbffff48bdffff08c1ffff26c3ffffdcc4ffff9cc8ffff16ccffffd8cdffff64d1ffff24d5ffff9ed8ffff72dcffffecdfffffc0e3ffff3aeaffffa2f5ffff90f8ffff92f8ffff74faffff06fbffffd24400004e5c00005e5c0000705c0000ac65000092660000486700008e700000747100002a7200008282000092820000a48200009888000082890000008b00006a9c00008e9c0000529e000018ac000082ac000038ad0000
+      m_SelectedIDs: 507b0000
+      m_LastClickedID: 31568
+      m_ExpandedIDs: eab4ffffbcb6ffffc6b8fffff2baffff02bbffff16bfffffe8ceffffaed4ffffb8d6ffff6cd7ffff56dcffff16e0ffff5cfbffffc23c0000cc3c0000de3c000028610000e662000046630000626300007a630000d6630000e0630000e6630000f2630000aa650000246600000a6800006a680000866800009e680000ea680000f4680000fa68000006690000f2720000b8750000c2750000d6750000e6760000f6770000567a0000b67a0000d27a0000ea7a00001e7b00003a7b0000447b00005e7b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 441.21155, y: 211.68935, z: -145.72531}
+    m_Target: {x: 545.04065, y: 181.31645, z: -231.43813}
     speed: 2
-    m_Value: {x: 441.21155, y: 211.68935, z: -145.72531}
+    m_Value: {x: 545.04065, y: 181.31645, z: -231.43813}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -511,9 +511,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 218.93497
+    m_Target: 280.9308
     speed: 2
-    m_Value: 218.93497
+    m_Value: 280.9308
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -710,20 +710,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Sounds
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Sounds
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity\Juegos-Serios\Fight Cancel
+  m_LastProjectPath: C:\Users\sarai\Documents\UCM\TERCERO\Juegos serios\Juegos-Serios\Fight
+    Cancel
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 14}
-    m_SelectedIDs: 8a3d0000
-    m_LastClickedID: 15754
-    m_ExpandedIDs: 000000007a3d00007c3d000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 783d0000
+    m_LastClickedID: 15736
+    m_ExpandedIDs: 00000000643d0000663d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -751,7 +752,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007a3d00007c3d0000
+    m_ExpandedIDs: 00000000643d0000663d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -873,7 +874,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 295
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
