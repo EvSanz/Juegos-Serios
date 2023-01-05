@@ -107,6 +107,11 @@ Durante este día, el jugador:
   - “Me alegro mucho por Wayne Kest y su nueva colección con Belenciaga”
   - “Menos mal que hice mi pedido de la nueva colección de Wayne Kest a tiempo”
 - Publicar un meme, pudiendo elegir entre 3:
+
+![Dia11](ReadmeImages/dia11.JPG)
+![Dia12](ReadmeImages/dia12.JPG)
+![Dia13](ReadmeImages/dia13.JPG)
+
 - Publicar un comentario como respuesta a uno de sus seguidores sobre unas zapatillas (este comentario será utilizado durante el Día 2):
   - “Me gustan más las negras”
   - “Me gustan más las blancas”
@@ -114,11 +119,24 @@ Durante este día, el jugador:
 
 **Dia 2:**
 
-Durante este día:
+Habrá 5 comentarios en el feed: 2 sin importancia, 1 de Wayne Kest, 1 del fan y 2 del hater:
 
-- El jugador publica un meme que le hace perder algunos seguidores
-- Hace un comentario suelto de mal gusto
-- Se le saca una publicación de contexto lo cual hace que sus seguidores bajen
+- Wayne Kest intentará eliminar los rumores negativos hacia su persona
+- El hater (ver en el apartado 9.3) saca de contexto el último comentario del jugador del Día 1
+- El hater hace una broma de mal gusto, dirigida hacia el jugador
+- El fan (ver en el apartado 9.3)  escribe: “Me parece muy fuerte que haya gente que piense que formes parte de una estafa en fin xdd”
+
+Durante este día, el jugador:
+
+- Hace un comentario un poco brusco, pudiendo elegir entre:
+  - “Muy graciosos los comentarios de los haters sobre las zapatillas ¿Qué habéis desayunado hoy, un payaso?”
+  - “Hay gente muy original en Twetty, y si en vez de comentar sobre mis respuestas os dedicais a algo más productivo (la de trabajar no os la sabeis xd)”
+  - “He visto varias reacciones negativas a mi comentario sobre las zapatillas. Yo solo quería compartir mi opinión. Parece que hoy en día ya no se puede comentar nada sin recibir críticas negativas”
+- Publica un meme para responder a un comentario del hater, pudiendo elegir entre 3:
+
+![Dia21](ReadmeImages/dia21.JPG)
+![Dia22](ReadmeImages/dia22.JPG)
+![Dia23](ReadmeImages/dia23.JPG)
 
 **Dia 3:**
 
