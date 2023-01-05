@@ -64,6 +64,10 @@ Contamos con un menú principal de juego, además de un menú de pausa.
 
 **Menú de pausa:** Permite continuar la partida, volver al menú principal o salir del juego. 
 
+**Interfaz:** A la izquierda muestra el "perfil" del jugador con su imagen, número de seguidores y la proporción de likes/dislikes que tiene. La mayor parte de la interfaz la ocupa el "feed" que muestra comentarios de otros usuarios, permite hacer publicaciones etc.
+
+![Interfaz](ReadmeImages/interfaz.png)
+
 ## 7. Dinámica: 
 
 El objetivo de Fight Cancel consiste en mantener y aumentar tu fama como influencer evitando durante la mayor cantidad de tiempo posible la cancelación, tomando decisiones que puedan disminuir la perspectiva negativa del público general. Esta se verá reflejada mediante el incremento o disminución de seguidores y likes, o la llegada de comentarios negativos. 
