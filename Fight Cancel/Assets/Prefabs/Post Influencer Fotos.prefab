@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2753151616134155996}
   - component: {fileID: 4064479087847229682}
+  - component: {fileID: 4361256270483262312}
   m_Layer: 5
   m_Name: Controller
   m_TagString: Untagged
@@ -54,6 +55,20 @@ MonoBehaviour:
   dislike: {fileID: 186504367722573509}
   likePressed: {fileID: 21300000, guid: 6a6cdd4b8ec2d87429af24fdd934c670, type: 3}
   dislikePressed: {fileID: 21300000, guid: de9c6c156265c244ba316b99ba44a6ae, type: 3}
+  playerTalk: {fileID: 0}
+--- !u!114 &4361256270483262312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17038999471604133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc37199819b425b40b65068ac0cb61ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 0}
 --- !u!1 &262638467917756165
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,6 +356,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7966371600320576618}
+        m_MethodName: PlayThisSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2853040817610237510
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,6 +488,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4064479087847229682}
         m_MethodName: DislikeLikeClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4361256270483262312}
+        m_MethodName: PlayThisSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -633,6 +670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 703738075223265814}
   - component: {fileID: 6907572153395505722}
+  - component: {fileID: 7966371600320576618}
   m_Layer: 5
   m_Name: Controller
   m_TagString: Untagged
@@ -677,6 +715,20 @@ MonoBehaviour:
   dislike: {fileID: 186504367722573509}
   likePressed: {fileID: 21300000, guid: 6a6cdd4b8ec2d87429af24fdd934c670, type: 3}
   dislikePressed: {fileID: 21300000, guid: de9c6c156265c244ba316b99ba44a6ae, type: 3}
+  playerTalk: {fileID: 0}
+--- !u!114 &7966371600320576618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3836456032495118814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc37199819b425b40b65068ac0cb61ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 0}
 --- !u!1 &5120987849995277214
 GameObject:
   m_ObjectHideFlags: 0

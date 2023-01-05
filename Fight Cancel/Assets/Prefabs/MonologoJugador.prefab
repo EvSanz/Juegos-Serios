@@ -219,6 +219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8359070875545964719}
   - component: {fileID: 8359070875545964716}
+  - component: {fileID: 5729278266383657901}
   m_Layer: 5
   m_Name: DialogueController
   m_TagString: Untagged
@@ -259,11 +260,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 8359070874436996741}
   pantalla: {fileID: 8359070875665631946}
+  popUp: {fileID: 0}
   sentences:
   - "Hoy es un nuevo d\xEDa "
   - Para hoy tengo que subir dos publicaciones
   - Oh, tampoco puedo olvidarme de ver a Kanye
   speed: 0.05
+--- !u!114 &5729278266383657901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8359070875545964718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc37199819b425b40b65068ac0cb61ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 0}
 --- !u!1 &8359070875665631946
 GameObject:
   m_ObjectHideFlags: 0

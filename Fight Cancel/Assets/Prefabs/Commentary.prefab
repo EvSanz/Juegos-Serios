@@ -361,6 +361,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6607833610673165139}
+        m_MethodName: PlayThisSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6039998537070194834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,6 +394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2833657307130473262}
   - component: {fileID: 2833657307130473263}
+  - component: {fileID: 9156817254003340916}
   m_Layer: 5
   m_Name: Controller
   m_TagString: Untagged
@@ -428,6 +440,19 @@ MonoBehaviour:
   likePressed: {fileID: 21300000, guid: 6a6cdd4b8ec2d87429af24fdd934c670, type: 3}
   dislikePressed: {fileID: 21300000, guid: de9c6c156265c244ba316b99ba44a6ae, type: 3}
   playerTalk: {fileID: 0}
+--- !u!114 &9156817254003340916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2833657307130473261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc37199819b425b40b65068ac0cb61ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 0}
 --- !u!1 &2833657307176360648
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,6 +584,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 9156817254003340916}
+        m_MethodName: PlayThisSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2835905871330581173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,6 +695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2833657307923838857}
   - component: {fileID: 2833657307923838858}
+  - component: {fileID: 6607833610673165139}
   m_Layer: 5
   m_Name: Controller
   m_TagString: Untagged
@@ -704,6 +741,19 @@ MonoBehaviour:
   likePressed: {fileID: 21300000, guid: 6a6cdd4b8ec2d87429af24fdd934c670, type: 3}
   dislikePressed: {fileID: 21300000, guid: de9c6c156265c244ba316b99ba44a6ae, type: 3}
   playerTalk: {fileID: 0}
+--- !u!114 &6607833610673165139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2833657307923838856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc37199819b425b40b65068ac0cb61ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 0}
 --- !u!1 &8086163329187409065
 GameObject:
   m_ObjectHideFlags: 0

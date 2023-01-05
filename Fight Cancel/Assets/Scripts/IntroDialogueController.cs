@@ -12,12 +12,23 @@ public class IntroDialogueController : MonoBehaviour
 
     private int Index = 0;
     private bool click = true;
-    private bool reset = false; 
+    private bool reset = false;
+    PlaySoundEffect soundEffect;
+
+    private void Start()
+    {
+        soundEffect = this.gameObject.GetComponent<PlaySoundEffect>();
+    }
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0) && click)
-            NextSentence(); 
+        {
+            NextSentence();
+            if (Index != sentences.Length)
+                soundEffect.PlayThisSound();
+            else soundEffect.StopSound();
+        }
     }
 
     void NextSentence()
@@ -32,6 +43,7 @@ public class IntroDialogueController : MonoBehaviour
         else if (Index == sentences.Length)
         {
             pantalla.SetActive(false);
+            soundEffect.StopSound();
 
             if (popUp != null)
                 popUp.SetActive(true);

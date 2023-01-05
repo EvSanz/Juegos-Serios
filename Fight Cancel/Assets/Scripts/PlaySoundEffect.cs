@@ -10,4 +10,11 @@ public class PlaySoundEffect : MonoBehaviour
     {
         soundEffect.Play(); 
     }
+
+    public void StopSound()
+    {
+        soundEffect.Pause();
+        soundEffect.Stop();
+        soundEffect.mute = true;
+    }
 }
