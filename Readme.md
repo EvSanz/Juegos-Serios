@@ -181,7 +181,7 @@ En ambos casos, el juego terminará con el jugador perdiendo frente al proceso d
 
 ### 9.3. Personajes: 
 
--**Protagonista:** Es el personaje que maneja el jugador, siendo un influencer que, tras una serie de sucesos, es cancelado en las redes sociales. Su objetivo es no perder su popularidad y arreglar los problemas que lo han llevado a esa situación.
+- **Protagonista:** Es el personaje que maneja el jugador, siendo un influencer que, tras una serie de sucesos, es cancelado en las redes sociales. Su objetivo es no perder su popularidad y arreglar los problemas que lo han llevado a esa situación.
 - **Wayne Kest:** Una celebridad que realiza acciones bastante polémicas. La reacción del protagonista a algunas de sus publicaciones afectarán de forma negativa a su popularidad.
 - **Fan:** Esta persona empieza apoyando al jugador, pero su intensidad y confianza irán disminuyendo conforme vayan avanzando los días. 
 - **Hater:** Hace publicaciones negativas y tergiversa las publicaciones del protagonista. 
