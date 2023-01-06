@@ -610,6 +610,12 @@ AudioSource:
     type: 3}
   m_PrefabInstance: {fileID: 407209293}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &407209296 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3334241231294741269, guid: bfa1ffba22ca40a43abc7a604b4c4761,
+    type: 3}
+  m_PrefabInstance: {fileID: 407209293}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &417476008
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,6 +2163,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8543382495320474635}
     m_Modifications:
+    - target: {fileID: 387862069932164096, guid: 551300456148cc949ab4158c82c2f0e0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 387862069932164096, guid: 551300456148cc949ab4158c82c2f0e0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 662030466466686469}
+    - target: {fileID: 387862069932164096, guid: 551300456148cc949ab4158c82c2f0e0,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayThisSound
+      objectReference: {fileID: 0}
     - target: {fileID: 2928788314828308915, guid: 551300456148cc949ab4158c82c2f0e0,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2317,6 +2338,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 551300456148cc949ab4158c82c2f0e0, type: 3}
+--- !u!114 &662030466466686469 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6667375145567013326, guid: 551300456148cc949ab4158c82c2f0e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 662030466466686468}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc37199819b425b40b65068ac0cb61ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &672178143878228085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2437,7 +2470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc37199819b425b40b65068ac0cb61ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 407209296}
 --- !u!1 &1733761050572391319
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,7 +2731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc37199819b425b40b65068ac0cb61ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 407209296}
 --- !u!222 &5256808566991175061
 CanvasRenderer:
   m_ObjectHideFlags: 0
