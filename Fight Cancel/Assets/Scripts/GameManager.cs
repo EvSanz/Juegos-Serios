@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     int seguidores = 105786;
     int contador = 0; 
     int post = 0, day=10;
-    bool likedCelebrity = false, blacks=false;
+    bool likedCelebrity = false, blacks = false;
     int currentActions = 0;
 
     float likes = 1, dislikes = 1;
@@ -94,6 +94,7 @@ public class GameManager : MonoBehaviour
         UIManager = uim;
         UIManager.UpdateFollowers(seguidores);
         UIManager.UpdateSlider(likes, dislikes);
+        
     }
 
     public static GameManager GetInstance()
@@ -113,9 +114,10 @@ public class GameManager : MonoBehaviour
             day++;
             //likedCelebrity = false;
             currentActions = 0;
-            
+           
         }
         GameIsPaused = false;
+      
         SceneManager.LoadScene(sceneName);
     }
     public void SetLikeCelebrity()
@@ -177,5 +179,5 @@ public class GameManager : MonoBehaviour
     {
         GameIsPaused = pausedState;
     }
-    
+   
 }

@@ -21,6 +21,7 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadNextLevel()
     {
+       
         GameManager.GetInstance().ChangeScene(sceneName);
     }
 
@@ -32,15 +33,17 @@ public class SceneLoader : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.GetInstance().getCurrentActions() >= maxActions && !exitActive)
-        {
-            if (playerTalk != null)
-                playerTalk.SetActive(true); 
+          if (GameManager.GetInstance().getCurrentActions() >= maxActions && !exitActive)
+            {
+                if (playerTalk != null)
+                    playerTalk.SetActive(true);
 
-            gameObject.SetActive(true);
+                gameObject.SetActive(true);
 
-            exitActive = true; 
-        }
+                exitActive = true;
+            }
+        
+       
         //Debug.Log("Acciones actuales: "+GameManager.GetInstance().getCurrentActions());
     }
 }
