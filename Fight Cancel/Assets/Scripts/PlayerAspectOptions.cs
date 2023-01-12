@@ -26,7 +26,7 @@ public class PlayerAspectOptions : MonoBehaviour
     public void ChooseTextProfile()
     {
         playerName.text = choosenName.text;
-        GameManager.GetInstance().SavePlayerName(playerName.text); 
+        GameManager.GetInstance().SavePlayerName(playerName.text);
         panelTexto.SetActive(false);
     }
 
