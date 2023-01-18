@@ -2301,7 +2301,7 @@ PrefabInstance:
     - target: {fileID: 4741608928719329908, guid: 551300456148cc949ab4158c82c2f0e0,
         type: 3}
       propertyPath: m_Text
-      value: 'El equipo deTwetty lamenta iformarle de que su cuenta ha sido suspendida
+      value: 'El equipo deTwetty lamenta informarle de que su cuenta ha sido suspendida
         indefinidamente
 
 '

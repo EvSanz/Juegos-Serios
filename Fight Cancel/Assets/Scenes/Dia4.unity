@@ -3584,7 +3584,7 @@ PrefabInstance:
     - target: {fileID: 8359070875545964716, guid: 650968a7d9f890742ac7d9c6b4b1769c,
         type: 3}
       propertyPath: sentences.Array.data[0]
-      value: ' Sera mejor que no publique nada y lo deje pasar...'
+      value: " Ser\xE1 mejor que no publique nada y lo deje pasar..."
       objectReference: {fileID: 0}
     - target: {fileID: 8359070875665631945, guid: 650968a7d9f890742ac7d9c6b4b1769c,
         type: 3}
